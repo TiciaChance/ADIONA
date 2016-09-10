@@ -6,6 +6,9 @@ target 'ADIONA' do
   use_frameworks!
 
   # Pods for ADIONA
+    pod 'KCFloatingActionButton', '~> 1.4'
+    pod 'JBButton', '~> 0.1'
+
 
   target 'ADIONATests' do
     inherit! :search_paths
@@ -15,8 +18,6 @@ target 'ADIONA' do
   target 'ADIONAUITests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'BFPaperButton', '~> 2.1'
-    pod 'KCFloatingActionButton', '~> 1.4'
   end
 
 end

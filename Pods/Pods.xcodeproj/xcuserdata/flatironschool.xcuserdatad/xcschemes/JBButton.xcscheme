@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EB67E487D20E25E38FE487BB46351C99'
-               BlueprintName = 'BFPaperButton'
+               BlueprintIdentifier = '7BE6B9791F5A4AC5AF67FBBD7997D91C'
+               BlueprintName = 'JBButton'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'BFPaperButton.framework'>
+               BuildableName = 'JBButton.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

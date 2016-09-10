@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BFPaperButton.xcscheme</key>
+		<key>JBButton.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,7 +32,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3F75A61E6CCA10C087BF88B139D90062</key>
+		<key>2919B4C8A32B17F9E1E0DC8219566E74</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EA9428AE356EB0F4D8B3BBE27B1668FB</key>
+		<key>7BE6B9791F5A4AC5AF67FBBD7997D91C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EB67E487D20E25E38FE487BB46351C99</key>
+		<key>D50D6D0EB30D3D4A11B47CC5D602786B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

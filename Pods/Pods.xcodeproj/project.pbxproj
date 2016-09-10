@@ -8,107 +8,114 @@
 
 /* Begin PBXBuildFile section */
 		01C25A0803A55624A3D4615005B88A57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		0F34C5270097D967089366488712ED3D /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B61AB23F1A66CA088C69067ABE6C2014 /* BFPaperButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13222E5544ACBF540EBF7953808AC062 /* Pods-ADIONAUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E9EBAD1D8E5FD1D70A023E2AD2F70E /* Pods-ADIONAUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1852DDAF01439DE2C97C11E0205E5F7C /* KCFABManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D5DB7A1D1491B67DB42C719AEA91A /* KCFABManager.swift */; };
+		1852DDAF01439DE2C97C11E0205E5F7C /* KCFABManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1CAB9358B2096692A2F92B3582740 /* KCFABManager.swift */; };
 		186FF4D27E0BCA73F0325256FE4C7EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		29BBDB4EC7DB7389B2410732429786E2 /* KCFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6214419FFE209E7782A1D0F244EB4D79 /* KCFloatingActionButton.swift */; };
-		2CFDCDBCC1C2B35E9147B27C997706FF /* KCFloatingActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C834C02F11F58BBC74F4CF92E2A354E /* KCFloatingActionButtonItem.swift */; };
-		37B2ABA1BE65F54320487B66627BE188 /* KCFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912C0598B554EEF4EBD0EAA32F316C4 /* KCFloatingActionButton-dummy.m */; };
-		37DE7942BE26AA7338366F18857BB240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		3BA5B499AE4BA58E9C602048956C57BA /* Pods-ADIONA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88A4DEA9F474D002039A33A456FB8C /* Pods-ADIONA-dummy.m */; };
-		3D7A094377D7E8E5B3EC047593C4FC9E /* Pods-ADIONA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1204A64F0EF65E3EC58A239BDF1F141D /* Pods-ADIONA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB521B850B0B6919C8D2EDA426AED44 /* KCFABWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB39DCF9DC44A44FB5349C7D475F31 /* KCFABWindow.swift */; };
-		5DEBEDE62A28F2DFC5CA2BF46C72851B /* Pods-ADIONAUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE107E12F12A16F154E4B28AD36A5019 /* Pods-ADIONAUITests-dummy.m */; };
-		61EB7C1C084BB1137246B78BDA9E144C /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CE6DE5A7882A0B1AF2DCBC6A3D877 /* BFPaperButton.m */; };
-		75C9EE0E091E0744622784BF270E03F8 /* KCFABViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C367A21D211D0FFA040ACB4DC27C0BDB /* KCFABViewController.swift */; };
-		7FE059F48CEC31A3B55FA79A5C7581F2 /* KCFloatingActionButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563BEC647794A2040BBAE0E489B32E3 /* KCFloatingActionButtonDelegate.swift */; };
-		98199F55DA461AEF9628555DCE5C7319 /* BFPaperButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD90B384406EBAD28023359D6AD29EB /* BFPaperButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		987D7490434ECD28F251E272945DDCB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		9BA037AEADB5BFE8C427A47B91B5D709 /* KCFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CD83FCE927843A1036B781956551B0 /* KCFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D7095CA446475A60BC3011D08C21983 /* BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDED9427AEAE599E1BDB0583715A0B6E /* BFPaperButton-dummy.m */; };
+		18BDD9DCD073EFE7F377D487FD8B827A /* JBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73747DCE31A933994A5D977F65995655 /* JBButton.swift */; };
+		29BBDB4EC7DB7389B2410732429786E2 /* KCFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D7BF66A95788DF9EEF0719D881B98D /* KCFloatingActionButton.swift */; };
+		2CFDCDBCC1C2B35E9147B27C997706FF /* KCFloatingActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530145D5568BF478889805EFFFBEC626 /* KCFloatingActionButtonItem.swift */; };
+		3217513582CE6D0D845C753115CCD4F5 /* Pods-ADIONAUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E9EBAD1D8E5FD1D70A023E2AD2F70E /* Pods-ADIONAUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B2ABA1BE65F54320487B66627BE188 /* KCFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A2FAC816FD0F9AC644A0C6E4B978D /* KCFloatingActionButton-dummy.m */; };
+		380F11D640692E21C79DF35666EE402F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		4A131A1A97DF2B8A6F53B5E12C5FCF3F /* JBButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D30E3C725F4FB064E7FA35BC45CB7B /* JBButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AB521B850B0B6919C8D2EDA426AED44 /* KCFABWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED75F35B5B4B2D60EFF8CEADB7F26FE /* KCFABWindow.swift */; };
+		4FBE88B39B332FA50811A118FAF8E746 /* Pods-ADIONA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88A4DEA9F474D002039A33A456FB8C /* Pods-ADIONA-dummy.m */; };
+		687F9595D3D2DA3169FBF8F2042F1743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		6C02E2CAA106F034195085C188A47601 /* JBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24597DF39E965806BAA9D75B01275E55 /* JBColor.swift */; };
+		75C9EE0E091E0744622784BF270E03F8 /* KCFABViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584D26FB0C102C4B239201E700EA8AA /* KCFABViewController.swift */; };
+		7FE059F48CEC31A3B55FA79A5C7581F2 /* KCFloatingActionButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D2065AD9997C2F91523FD732ABFB9 /* KCFloatingActionButtonDelegate.swift */; };
+		86960FBC5E20F7D77952728F6E5718D2 /* JBButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F49A9788B9CB600A2E70373F317BAC2 /* JBButton-dummy.m */; };
+		91AB49BB592C3DDD4C75A3231EA74135 /* JBLayouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD396CB3045B1D076E6881EFDA21CA9A /* JBLayouting.swift */; };
+		9BA037AEADB5BFE8C427A47B91B5D709 /* KCFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE80D7A5E1F962513C294B6B339FC34F /* KCFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EF76394B3A5102129171358D6BB92FF /* Pods-ADIONAUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE107E12F12A16F154E4B28AD36A5019 /* Pods-ADIONAUITests-dummy.m */; };
+		B9759C6042568C8593CF3EBF8658C198 /* JBLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722206BD2361074F43DAD2892E56F833 /* JBLoading.swift */; };
+		BE6F48D9E69EA53C5C248A17F465896C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
 		BF01149C310DE60A44152E58E6771627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		CC494C690370A76BD204850554DCED5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
 		DC2A65B7AFEE4D05F56839EF91B8D4ED /* Pods-ADIONATests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA1E9D580ACE53EBC8E255A6C392F6 /* Pods-ADIONATests-dummy.m */; };
+		E057624F6E6EF80A6B700CD0E6F1DA1C /* Pods-ADIONA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1204A64F0EF65E3EC58A239BDF1F141D /* Pods-ADIONA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E746C40E3314CBDF4BFFACADF06329BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
 		E8E0A89C5A1CF93CE6EBD7C10E1EE198 /* Pods-ADIONATests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE12F31D58E54F3A67274A61249981B /* Pods-ADIONATests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F67B93F6D803E311DE0E3CF72CA725FB /* JBAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF64A0E5E597A7D1D709A5888564CA5C /* JBAnimated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A1694B2132D884426B59A594800B427 /* PBXContainerItemProxy */ = {
+		AD79CF12D94DD6D8DA48CF063A8DE02C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 59C5734CBDBC16DD52556632EF13C40B;
 			remoteInfo = KCFloatingActionButton;
 		};
-		D8F4C60962B5E4874FAD878FE7A40DCA /* PBXContainerItemProxy */ = {
+		BA9521D01749730A4943863CE775D672 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB67E487D20E25E38FE487BB46351C99;
-			remoteInfo = BFPaperButton;
+			remoteGlobalIDString = 7BE6B9791F5A4AC5AF67FBBD7997D91C;
+			remoteInfo = JBButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03CEC664F4C8FAA2CE4984C7FFFF0381 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03EA1E9D580ACE53EBC8E255A6C392F6 /* Pods-ADIONATests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADIONATests-dummy.m"; sourceTree = "<group>"; };
+		04107863A7B45A98C2830031125740E3 /* JBButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1204A64F0EF65E3EC58A239BDF1F141D /* Pods-ADIONA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADIONA-umbrella.h"; sourceTree = "<group>"; };
-		14D6CFFF5486C1080838C597B2151624 /* KCFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KCFloatingActionButton.modulemap; sourceTree = "<group>"; };
+		1E9D2065AD9997C2F91523FD732ABFB9 /* KCFloatingActionButtonDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButtonDelegate.swift; path = Sources/KCFloatingActionButtonDelegate.swift; sourceTree = "<group>"; };
+		24597DF39E965806BAA9D75B01275E55 /* JBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBColor.swift; path = JBButton/JBColor.swift; sourceTree = "<group>"; };
 		259FE007928CC29DE743AC3CE50A9A92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29ED4481A35C18CCFAD2FC24D134B350 /* Pods_ADIONATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E9EBAD1D8E5FD1D70A023E2AD2F70E /* Pods-ADIONAUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADIONAUITests-umbrella.h"; sourceTree = "<group>"; };
-		3FD90B384406EBAD28023359D6AD29EB /* BFPaperButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-umbrella.h"; sourceTree = "<group>"; };
-		405E36C833F418C0DFD5EDC53886B5DC /* BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
+		3F4A2FAC816FD0F9AC644A0C6E4B978D /* KCFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KCFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
 		419BC84C2CA920CE9EC4FC00A10B374C /* Pods-ADIONAUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADIONAUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4517478388ECD894A076F8712FCD82AB /* Pods-ADIONA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADIONA-frameworks.sh"; sourceTree = "<group>"; };
-		48DB39DCF9DC44A44FB5349C7D475F31 /* KCFABWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABWindow.swift; path = Sources/KCFABWindow.swift; sourceTree = "<group>"; };
+		4584D26FB0C102C4B239201E700EA8AA /* KCFABViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABViewController.swift; path = Sources/KCFABViewController.swift; sourceTree = "<group>"; };
+		52F1F1F596C58C5BB075DC336491A4E8 /* KCFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		530145D5568BF478889805EFFFBEC626 /* KCFloatingActionButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButtonItem.swift; path = Sources/KCFloatingActionButtonItem.swift; sourceTree = "<group>"; };
 		58C48CAB825F2793E50302B1201B2762 /* Pods-ADIONAUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADIONAUITests-resources.sh"; sourceTree = "<group>"; };
 		5F38D13FE089E3A25F52BAA5F9CF41BF /* Pods-ADIONAUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADIONAUITests-frameworks.sh"; sourceTree = "<group>"; };
-		6214419FFE209E7782A1D0F244EB4D79 /* KCFloatingActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButton.swift; path = Sources/KCFloatingActionButton.swift; sourceTree = "<group>"; };
-		6F1CE6DE5A7882A0B1AF2DCBC6A3D877 /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
+		653AC0E9B6C5560A4D1CC046169E3B5B /* JBButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JBButton.modulemap; sourceTree = "<group>"; };
 		7042D8673A455FF20A9923D41C1D7637 /* Pods-ADIONAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIONAUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7103C1964ADC83A93711ECF298B76BBA /* Pods-ADIONA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ADIONA.modulemap"; sourceTree = "<group>"; };
-		7A6C68098833C1C28481BB5E441381A9 /* BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFPaperButton.xcconfig; sourceTree = "<group>"; };
+		722206BD2361074F43DAD2892E56F833 /* JBLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBLoading.swift; path = JBButton/JBLoading.swift; sourceTree = "<group>"; };
+		73747DCE31A933994A5D977F65995655 /* JBButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBButton.swift; path = JBButton/JBButton.swift; sourceTree = "<group>"; };
 		7AB1F08147F6085CC40D44D2C776A5F4 /* Pods-ADIONAUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ADIONAUITests.modulemap"; sourceTree = "<group>"; };
 		7DF500DF2C0CC4E3C24B2ABBBDBB3641 /* Pods-ADIONAUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADIONAUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E542166196B2F70D52D9FCCD1B84064 /* KCFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED75F35B5B4B2D60EFF8CEADB7F26FE /* KCFABWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABWindow.swift; path = Sources/KCFABWindow.swift; sourceTree = "<group>"; };
 		80C2D55433BDAC2DAAF4B28507BC6579 /* Pods-ADIONA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIONA.debug.xcconfig"; sourceTree = "<group>"; };
 		80DAD8955F171443427DA8DDEE58367C /* Pods-ADIONATests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADIONATests-frameworks.sh"; sourceTree = "<group>"; };
 		84806005E859DC24C8787DF7D40B2EDA /* Pods-ADIONA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIONA.release.xcconfig"; sourceTree = "<group>"; };
-		8563BEC647794A2040BBAE0E489B32E3 /* KCFloatingActionButtonDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButtonDelegate.swift; path = Sources/KCFloatingActionButtonDelegate.swift; sourceTree = "<group>"; };
-		880DEADE5BC8888039A63A0C7D30A67A /* Pods_ADIONATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8912C0598B554EEF4EBD0EAA32F316C4 /* KCFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KCFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
-		8A6AAB88438C44F7E4225EB3F56AD993 /* BFPaperButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BFPaperButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C834C02F11F58BBC74F4CF92E2A354E /* KCFloatingActionButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButtonItem.swift; path = Sources/KCFloatingActionButtonItem.swift; sourceTree = "<group>"; };
+		88C1CAB9358B2096692A2F92B3582740 /* KCFABManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABManager.swift; path = Sources/KCFABManager.swift; sourceTree = "<group>"; };
 		8E1C85E28588DBC6DD2C551DEE93F084 /* Pods-ADIONATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIONATests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		973EC240B7E0ACA6C7B2A23AF0C9A20B /* Pods-ADIONA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADIONA-acknowledgements.plist"; sourceTree = "<group>"; };
 		97DDAE99AFAAB5AE6053C64304537300 /* Pods-ADIONATests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ADIONATests.modulemap"; sourceTree = "<group>"; };
 		99956761A01AFA52BBFFB7BB903749F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C19FAB16D72318A5C3F96BE898E745B /* KCFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KCFloatingActionButton.modulemap; sourceTree = "<group>"; };
+		9DD7ED80AB654BFF08AE2ACE8D581B9E /* Pods_ADIONA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F49A9788B9CB600A2E70373F317BAC2 /* JBButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JBButton-dummy.m"; sourceTree = "<group>"; };
 		9F88A4DEA9F474D002039A33A456FB8C /* Pods-ADIONA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADIONA-dummy.m"; sourceTree = "<group>"; };
 		A151AB0440E42B64E45C1B78B348AAA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AD7B071F04D7053BEF1C001BB18878B3 /* Pods-ADIONA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADIONA-resources.sh"; sourceTree = "<group>"; };
 		B17095CCA014BA0ACA29A4ECB13D9C35 /* Pods-ADIONATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIONATests.debug.xcconfig"; sourceTree = "<group>"; };
-		B3210699CC5EAF4B8781BBDFB26B7A05 /* Pods_ADIONA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B61AB23F1A66CA088C69067ABE6C2014 /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
+		B38EF33FBE0874F79AAA9757B69BF584 /* JBButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBButton.xcconfig; sourceTree = "<group>"; };
+		B7D30E3C725F4FB064E7FA35BC45CB7B /* JBButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBButton-umbrella.h"; sourceTree = "<group>"; };
 		BBE12F31D58E54F3A67274A61249981B /* Pods-ADIONATests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADIONATests-umbrella.h"; sourceTree = "<group>"; };
-		C367A21D211D0FFA040ACB4DC27C0BDB /* KCFABViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABViewController.swift; path = Sources/KCFABViewController.swift; sourceTree = "<group>"; };
-		C4CD83FCE927843A1036B781956551B0 /* KCFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
-		CB2C0349D24F242493D5F3AB7E3110BF /* BFPaperButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BFPaperButton.modulemap; sourceTree = "<group>"; };
 		CFCBE7036D92853A95D02FF74CBA1B9C /* Pods-ADIONATests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADIONATests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D25BF3675CC26312B026D1638D9403EC /* Pods-ADIONATests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADIONATests-resources.sh"; sourceTree = "<group>"; };
-		D51AA666D505F8A6F9BD66103781697B /* KCFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
 		DE107E12F12A16F154E4B28AD36A5019 /* Pods-ADIONAUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADIONAUITests-dummy.m"; sourceTree = "<group>"; };
-		DFFE47F0706E9FE9F691C4C63242C42B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E59D5DB7A1D1491B67DB42C719AEA91A /* KCFABManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFABManager.swift; path = Sources/KCFABManager.swift; sourceTree = "<group>"; };
+		DF64A0E5E597A7D1D709A5888564CA5C /* JBAnimated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBAnimated.swift; path = JBButton/JBAnimated.swift; sourceTree = "<group>"; };
+		E4D7BF66A95788DF9EEF0719D881B98D /* KCFloatingActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButton.swift; path = Sources/KCFloatingActionButton.swift; sourceTree = "<group>"; };
+		E553EEA0E30B7595C5B0D701F3735D53 /* JBButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBButton-prefix.pch"; sourceTree = "<group>"; };
+		E784F67A910D262EF12CFE0861864A04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EF81AF12FDA58AC1EF69ADDE43BCCCB0 /* KCFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
 		F1A2FD863AAABC20AB610C0DB2FCB13F /* Pods-ADIONAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIONAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F335536D5E118950D441249034D7DF07 /* KCFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCFloatingActionButton.xcconfig; sourceTree = "<group>"; };
 		F4D8130F12CC567EB4E7960E9E01BAFA /* Pods-ADIONA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADIONA-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5BE490D1AAF2D9C7B0F79E2E47A0884 /* Pods_ADIONAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62D5815CD6E62BD04EA26305694717F /* Pods-ADIONATests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADIONATests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F73BE0120D876BCB0D37AA48B4287264 /* Pods_ADIONAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F884FB0A5CAE5FA26CACA126BA1529B4 /* KCFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCFloatingActionButton.xcconfig; sourceTree = "<group>"; };
-		FDED9427AEAE599E1BDB0583715A0B6E /* BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFPaperButton-dummy.m"; sourceTree = "<group>"; };
+		F8AAB0E5D271F91CB4E70B04C38C09DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD396CB3045B1D076E6881EFDA21CA9A /* JBLayouting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBLayouting.swift; path = JBButton/JBLayouting.swift; sourceTree = "<group>"; };
+		FE80D7A5E1F962513C294B6B339FC34F /* KCFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,27 +136,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40A8B9ADBD27AE54B57F3CB4A75027E7 /* Frameworks */ = {
+		2F0D13AF8941C2C5D28D8B8C22C3A821 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987D7490434ECD28F251E272945DDCB6 /* Foundation.framework in Frameworks */,
+				380F11D640692E21C79DF35666EE402F /* Foundation.framework in Frameworks */,
+				E746C40E3314CBDF4BFFACADF06329BC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CD5148E7B1E4D735EBC6AD2A02AB2A7 /* Frameworks */ = {
+		606FD8B596F0CC9AC7C3EE9131A4825D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37DE7942BE26AA7338366F18857BB240 /* Foundation.framework in Frameworks */,
+				BE6F48D9E69EA53C5C248A17F465896C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E24C4131A6A4EF0004D94E9001C621F3 /* Frameworks */ = {
+		A3165EDE3174B92ABD640C398EDA4C21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC494C690370A76BD204850554DCED5D /* Foundation.framework in Frameworks */,
+				687F9595D3D2DA3169FBF8F2042F1743 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +190,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		452D2294C73BD90EDCBC78A722196077 /* JBButton */ = {
+			isa = PBXGroup;
+			children = (
+				DF64A0E5E597A7D1D709A5888564CA5C /* JBAnimated.swift */,
+				73747DCE31A933994A5D977F65995655 /* JBButton.swift */,
+				24597DF39E965806BAA9D75B01275E55 /* JBColor.swift */,
+				FD396CB3045B1D076E6881EFDA21CA9A /* JBLayouting.swift */,
+				722206BD2361074F43DAD2892E56F833 /* JBLoading.swift */,
+				ADC6B1D32D926B1F9FE09E38DD49A5D6 /* Support Files */,
+			);
+			path = JBButton;
+			sourceTree = "<group>";
+		};
+		4752C877A7EC47CD789F10D5914D07EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04107863A7B45A98C2830031125740E3 /* JBButton.framework */,
+				52F1F1F596C58C5BB075DC336491A4E8 /* KCFloatingActionButton.framework */,
+				9DD7ED80AB654BFF08AE2ACE8D581B9E /* Pods_ADIONA.framework */,
+				29ED4481A35C18CCFAD2FC24D134B350 /* Pods_ADIONATests.framework */,
+				F5BE490D1AAF2D9C7B0F79E2E47A0884 /* Pods_ADIONAUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		48BD5C95873289661163B78F08DFC4DB /* Pods-ADIONATests */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,29 +233,57 @@
 			path = "Target Support Files/Pods-ADIONATests";
 			sourceTree = "<group>";
 		};
+		788DF147018FAEF8D583593C46E32150 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8AAB0E5D271F91CB4E70B04C38C09DF /* Info.plist */,
+				9C19FAB16D72318A5C3F96BE898E745B /* KCFloatingActionButton.modulemap */,
+				F335536D5E118950D441249034D7DF07 /* KCFloatingActionButton.xcconfig */,
+				3F4A2FAC816FD0F9AC644A0C6E4B978D /* KCFloatingActionButton-dummy.m */,
+				EF81AF12FDA58AC1EF69ADDE43BCCCB0 /* KCFloatingActionButton-prefix.pch */,
+				FE80D7A5E1F962513C294B6B339FC34F /* KCFloatingActionButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KCFloatingActionButton";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				CDA18B696C751C1E882D130CF984A022 /* Pods */,
-				D24B3661407C63AE2FE7670B9E4533F8 /* Products */,
+				D3E1B43D6648987E7D3A32400688CC06 /* Pods */,
+				4752C877A7EC47CD789F10D5914D07EE /* Products */,
 				E6E533B21CE0383811C8B031A53FF62A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B0C93F48C73FB7840D6B57C30F88F52F /* KCFloatingActionButton */ = {
+		A89DD50A159708344E1059A1CE8098DB /* KCFloatingActionButton */ = {
 			isa = PBXGroup;
 			children = (
-				E59D5DB7A1D1491B67DB42C719AEA91A /* KCFABManager.swift */,
-				C367A21D211D0FFA040ACB4DC27C0BDB /* KCFABViewController.swift */,
-				48DB39DCF9DC44A44FB5349C7D475F31 /* KCFABWindow.swift */,
-				6214419FFE209E7782A1D0F244EB4D79 /* KCFloatingActionButton.swift */,
-				8563BEC647794A2040BBAE0E489B32E3 /* KCFloatingActionButtonDelegate.swift */,
-				8C834C02F11F58BBC74F4CF92E2A354E /* KCFloatingActionButtonItem.swift */,
-				D0A92F29E92515502B42BBA82092869F /* Support Files */,
+				88C1CAB9358B2096692A2F92B3582740 /* KCFABManager.swift */,
+				4584D26FB0C102C4B239201E700EA8AA /* KCFABViewController.swift */,
+				7ED75F35B5B4B2D60EFF8CEADB7F26FE /* KCFABWindow.swift */,
+				E4D7BF66A95788DF9EEF0719D881B98D /* KCFloatingActionButton.swift */,
+				1E9D2065AD9997C2F91523FD732ABFB9 /* KCFloatingActionButtonDelegate.swift */,
+				530145D5568BF478889805EFFFBEC626 /* KCFloatingActionButtonItem.swift */,
+				788DF147018FAEF8D583593C46E32150 /* Support Files */,
 			);
 			path = KCFloatingActionButton;
+			sourceTree = "<group>";
+		};
+		ADC6B1D32D926B1F9FE09E38DD49A5D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E784F67A910D262EF12CFE0861864A04 /* Info.plist */,
+				653AC0E9B6C5560A4D1CC046169E3B5B /* JBButton.modulemap */,
+				B38EF33FBE0874F79AAA9757B69BF584 /* JBButton.xcconfig */,
+				9F49A9788B9CB600A2E70373F317BAC2 /* JBButton-dummy.m */,
+				E553EEA0E30B7595C5B0D701F3735D53 /* JBButton-prefix.pch */,
+				B7D30E3C725F4FB064E7FA35BC45CB7B /* JBButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JBButton";
 			sourceTree = "<group>";
 		};
 		BADEEAB06048EC36AC5116C91EF7DEAD /* Pods-ADIONAUITests */ = {
@@ -243,63 +304,13 @@
 			path = "Target Support Files/Pods-ADIONAUITests";
 			sourceTree = "<group>";
 		};
-		C125D414A52B937EF1618C27F0414EB9 /* Support Files */ = {
+		D3E1B43D6648987E7D3A32400688CC06 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB2C0349D24F242493D5F3AB7E3110BF /* BFPaperButton.modulemap */,
-				7A6C68098833C1C28481BB5E441381A9 /* BFPaperButton.xcconfig */,
-				FDED9427AEAE599E1BDB0583715A0B6E /* BFPaperButton-dummy.m */,
-				405E36C833F418C0DFD5EDC53886B5DC /* BFPaperButton-prefix.pch */,
-				3FD90B384406EBAD28023359D6AD29EB /* BFPaperButton-umbrella.h */,
-				DFFE47F0706E9FE9F691C4C63242C42B /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BFPaperButton";
-			sourceTree = "<group>";
-		};
-		CDA18B696C751C1E882D130CF984A022 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E297D283061CAA918FA5832424CABF25 /* BFPaperButton */,
-				B0C93F48C73FB7840D6B57C30F88F52F /* KCFloatingActionButton */,
+				452D2294C73BD90EDCBC78A722196077 /* JBButton */,
+				A89DD50A159708344E1059A1CE8098DB /* KCFloatingActionButton */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		D0A92F29E92515502B42BBA82092869F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				03CEC664F4C8FAA2CE4984C7FFFF0381 /* Info.plist */,
-				14D6CFFF5486C1080838C597B2151624 /* KCFloatingActionButton.modulemap */,
-				F884FB0A5CAE5FA26CACA126BA1529B4 /* KCFloatingActionButton.xcconfig */,
-				8912C0598B554EEF4EBD0EAA32F316C4 /* KCFloatingActionButton-dummy.m */,
-				D51AA666D505F8A6F9BD66103781697B /* KCFloatingActionButton-prefix.pch */,
-				C4CD83FCE927843A1036B781956551B0 /* KCFloatingActionButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KCFloatingActionButton";
-			sourceTree = "<group>";
-		};
-		D24B3661407C63AE2FE7670B9E4533F8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8A6AAB88438C44F7E4225EB3F56AD993 /* BFPaperButton.framework */,
-				7E542166196B2F70D52D9FCCD1B84064 /* KCFloatingActionButton.framework */,
-				B3210699CC5EAF4B8781BBDFB26B7A05 /* Pods_ADIONA.framework */,
-				880DEADE5BC8888039A63A0C7D30A67A /* Pods_ADIONATests.framework */,
-				F73BE0120D876BCB0D37AA48B4287264 /* Pods_ADIONAUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E297D283061CAA918FA5832424CABF25 /* BFPaperButton */ = {
-			isa = PBXGroup;
-			children = (
-				B61AB23F1A66CA088C69067ABE6C2014 /* BFPaperButton.h */,
-				6F1CE6DE5A7882A0B1AF2DCBC6A3D877 /* BFPaperButton.m */,
-				C125D414A52B937EF1618C27F0414EB9 /* Support Files */,
-			);
-			path = BFPaperButton;
 			sourceTree = "<group>";
 		};
 		E6E533B21CE0383811C8B031A53FF62A /* Targets Support Files */ = {
@@ -324,12 +335,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A7BCFA816F4547989B0A598EE6B15C7 /* Headers */ = {
+		0FC9307D7388433227C8C5478B5CC109 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98199F55DA461AEF9628555DCE5C7319 /* BFPaperButton-umbrella.h in Headers */,
-				0F34C5270097D967089366488712ED3D /* BFPaperButton.h in Headers */,
+				3217513582CE6D0D845C753115CCD4F5 /* Pods-ADIONAUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,11 +351,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68E34509F53FA87D045E49846C9F9CDB /* Headers */ = {
+		47AB1CFE15E097A7BE47E84A581C78CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D7A094377D7E8E5B3EC047593C4FC9E /* Pods-ADIONA-umbrella.h in Headers */,
+				E057624F6E6EF80A6B700CD0E6F1DA1C /* Pods-ADIONA-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,34 +367,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD6FCE6108E0A45A21BD3551B0180B87 /* Headers */ = {
+		FED768885EE36DFC2A28A6D1F9747F67 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13222E5544ACBF540EBF7953808AC062 /* Pods-ADIONAUITests-umbrella.h in Headers */,
+				4A131A1A97DF2B8A6F53B5E12C5FCF3F /* JBButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3F75A61E6CCA10C087BF88B139D90062 /* Pods-ADIONAUITests */ = {
+		2919B4C8A32B17F9E1E0DC8219566E74 /* Pods-ADIONA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DE56CBEA0284A8157F59477490B91D4 /* Build configuration list for PBXNativeTarget "Pods-ADIONAUITests" */;
+			buildConfigurationList = D2DB882FA69FDECED9048034095B2D28 /* Build configuration list for PBXNativeTarget "Pods-ADIONA" */;
 			buildPhases = (
-				8FA34EB4BEB01F55A15EDEA478F69E40 /* Sources */,
-				6CD5148E7B1E4D735EBC6AD2A02AB2A7 /* Frameworks */,
-				CD6FCE6108E0A45A21BD3551B0180B87 /* Headers */,
+				620A1DF1F85B6A5240FADBAE800A8DB5 /* Sources */,
+				A3165EDE3174B92ABD640C398EDA4C21 /* Frameworks */,
+				47AB1CFE15E097A7BE47E84A581C78CF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7358439C90F64FEF1E3045052DC164B4 /* PBXTargetDependency */,
-				BE7115C84511E2A3C4B3216B7973F3C6 /* PBXTargetDependency */,
+				120DFBFADBF8F5F21175EF7FD8F96CCD /* PBXTargetDependency */,
+				3151EAC4FCF544D3C0BED52A90BD9209 /* PBXTargetDependency */,
 			);
-			name = "Pods-ADIONAUITests";
-			productName = "Pods-ADIONAUITests";
-			productReference = F73BE0120D876BCB0D37AA48B4287264 /* Pods_ADIONAUITests.framework */;
+			name = "Pods-ADIONA";
+			productName = "Pods-ADIONA";
+			productReference = 9DD7ED80AB654BFF08AE2ACE8D581B9E /* Pods_ADIONA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4FD8A4A409C98A725B281E121D3CC32A /* Pods-ADIONATests */ = {
@@ -401,7 +411,7 @@
 			);
 			name = "Pods-ADIONATests";
 			productName = "Pods-ADIONATests";
-			productReference = 880DEADE5BC8888039A63A0C7D30A67A /* Pods_ADIONATests.framework */;
+			productReference = 29ED4481A35C18CCFAD2FC24D134B350 /* Pods_ADIONATests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		59C5734CBDBC16DD52556632EF13C40B /* KCFloatingActionButton */ = {
@@ -418,41 +428,41 @@
 			);
 			name = KCFloatingActionButton;
 			productName = KCFloatingActionButton;
-			productReference = 7E542166196B2F70D52D9FCCD1B84064 /* KCFloatingActionButton.framework */;
+			productReference = 52F1F1F596C58C5BB075DC336491A4E8 /* KCFloatingActionButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EA9428AE356EB0F4D8B3BBE27B1668FB /* Pods-ADIONA */ = {
+		7BE6B9791F5A4AC5AF67FBBD7997D91C /* JBButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A80C89D23E879D32644D7D1747EA698 /* Build configuration list for PBXNativeTarget "Pods-ADIONA" */;
+			buildConfigurationList = 7642838EBD93FA524A6B707FC6D6502F /* Build configuration list for PBXNativeTarget "JBButton" */;
 			buildPhases = (
-				67EF8B27EA1635082374F5A7546704EA /* Sources */,
-				E24C4131A6A4EF0004D94E9001C621F3 /* Frameworks */,
-				68E34509F53FA87D045E49846C9F9CDB /* Headers */,
+				621037037D3B30537DC111CC1164374B /* Sources */,
+				2F0D13AF8941C2C5D28D8B8C22C3A821 /* Frameworks */,
+				FED768885EE36DFC2A28A6D1F9747F67 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-ADIONA";
-			productName = "Pods-ADIONA";
-			productReference = B3210699CC5EAF4B8781BBDFB26B7A05 /* Pods_ADIONA.framework */;
+			name = JBButton;
+			productName = JBButton;
+			productReference = 04107863A7B45A98C2830031125740E3 /* JBButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EB67E487D20E25E38FE487BB46351C99 /* BFPaperButton */ = {
+		D50D6D0EB30D3D4A11B47CC5D602786B /* Pods-ADIONAUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00F5A5F99C36A2EE4FB2511332F2D631 /* Build configuration list for PBXNativeTarget "BFPaperButton" */;
+			buildConfigurationList = 8707AC6D1461BC169A2A6971F53C43E6 /* Build configuration list for PBXNativeTarget "Pods-ADIONAUITests" */;
 			buildPhases = (
-				24491626D78784FFC99460B644752F94 /* Sources */,
-				40A8B9ADBD27AE54B57F3CB4A75027E7 /* Frameworks */,
-				1A7BCFA816F4547989B0A598EE6B15C7 /* Headers */,
+				415B16152EA90397D4BA63D8BD15E91D /* Sources */,
+				606FD8B596F0CC9AC7C3EE9131A4825D /* Frameworks */,
+				0FC9307D7388433227C8C5478B5CC109 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BFPaperButton;
-			productName = BFPaperButton;
-			productReference = 8A6AAB88438C44F7E4225EB3F56AD993 /* BFPaperButton.framework */;
+			name = "Pods-ADIONAUITests";
+			productName = "Pods-ADIONAUITests";
+			productReference = F5BE490D1AAF2D9C7B0F79E2E47A0884 /* Pods_ADIONAUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -472,15 +482,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D24B3661407C63AE2FE7670B9E4533F8 /* Products */;
+			productRefGroup = 4752C877A7EC47CD789F10D5914D07EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB67E487D20E25E38FE487BB46351C99 /* BFPaperButton */,
+				7BE6B9791F5A4AC5AF67FBBD7997D91C /* JBButton */,
 				59C5734CBDBC16DD52556632EF13C40B /* KCFloatingActionButton */,
-				EA9428AE356EB0F4D8B3BBE27B1668FB /* Pods-ADIONA */,
+				2919B4C8A32B17F9E1E0DC8219566E74 /* Pods-ADIONA */,
 				4FD8A4A409C98A725B281E121D3CC32A /* Pods-ADIONATests */,
-				3F75A61E6CCA10C087BF88B139D90062 /* Pods-ADIONAUITests */,
+				D50D6D0EB30D3D4A11B47CC5D602786B /* Pods-ADIONAUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -494,20 +504,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24491626D78784FFC99460B644752F94 /* Sources */ = {
+		415B16152EA90397D4BA63D8BD15E91D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D7095CA446475A60BC3011D08C21983 /* BFPaperButton-dummy.m in Sources */,
-				61EB7C1C084BB1137246B78BDA9E144C /* BFPaperButton.m in Sources */,
+				9EF76394B3A5102129171358D6BB92FF /* Pods-ADIONAUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67EF8B27EA1635082374F5A7546704EA /* Sources */ = {
+		620A1DF1F85B6A5240FADBAE800A8DB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA5B499AE4BA58E9C602048956C57BA /* Pods-ADIONA-dummy.m in Sources */,
+				4FBE88B39B332FA50811A118FAF8E746 /* Pods-ADIONA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621037037D3B30537DC111CC1164374B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67B93F6D803E311DE0E3CF72CA725FB /* JBAnimated.swift in Sources */,
+				86960FBC5E20F7D77952728F6E5718D2 /* JBButton-dummy.m in Sources */,
+				18BDD9DCD073EFE7F377D487FD8B827A /* JBButton.swift in Sources */,
+				6C02E2CAA106F034195085C188A47601 /* JBColor.swift in Sources */,
+				91AB49BB592C3DDD4C75A3231EA74135 /* JBLayouting.swift in Sources */,
+				B9759C6042568C8593CF3EBF8658C198 /* JBLoading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,35 +547,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FA34EB4BEB01F55A15EDEA478F69E40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DEBEDE62A28F2DFC5CA2BF46C72851B /* Pods-ADIONAUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7358439C90F64FEF1E3045052DC164B4 /* PBXTargetDependency */ = {
+		120DFBFADBF8F5F21175EF7FD8F96CCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BFPaperButton;
-			target = EB67E487D20E25E38FE487BB46351C99 /* BFPaperButton */;
-			targetProxy = D8F4C60962B5E4874FAD878FE7A40DCA /* PBXContainerItemProxy */;
+			name = JBButton;
+			target = 7BE6B9791F5A4AC5AF67FBBD7997D91C /* JBButton */;
+			targetProxy = BA9521D01749730A4943863CE775D672 /* PBXContainerItemProxy */;
 		};
-		BE7115C84511E2A3C4B3216B7973F3C6 /* PBXTargetDependency */ = {
+		3151EAC4FCF544D3C0BED52A90BD9209 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KCFloatingActionButton;
 			target = 59C5734CBDBC16DD52556632EF13C40B /* KCFloatingActionButton */;
-			targetProxy = 8A1694B2132D884426B59A594800B427 /* PBXContainerItemProxy */;
+			targetProxy = AD79CF12D94DD6D8DA48CF063A8DE02C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		105B18A8D540E1B7E2A9F892634D774D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F884FB0A5CAE5FA26CACA126BA1529B4 /* KCFloatingActionButton.xcconfig */;
+			baseConfigurationReference = F335536D5E118950D441249034D7DF07 /* KCFloatingActionButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -580,9 +594,9 @@
 			};
 			name = Release;
 		};
-		14FDBB922936C7139C4C99E58D39B4D7 /* Release */ = {
+		19BEEE9F4880145BE95D208142C6DAA1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84806005E859DC24C8787DF7D40B2EDA /* Pods-ADIONA.release.xcconfig */;
+			baseConfigurationReference = 7042D8673A455FF20A9923D41C1D7637 /* Pods-ADIONAUITests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -593,18 +607,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ADIONA/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADIONAUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ADIONA/Pods-ADIONA.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ADIONAUITests/Pods-ADIONAUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ADIONA;
+				PRODUCT_NAME = Pods_ADIONAUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -651,9 +665,9 @@
 			};
 			name = Release;
 		};
-		48EBEF516D632FBE7D9A9EB6CFD8CEA6 /* Debug */ = {
+		5BF70A604A23D3019B70D103273935F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80C2D55433BDAC2DAAF4B28507BC6579 /* Pods-ADIONA.debug.xcconfig */;
+			baseConfigurationReference = F1A2FD863AAABC20AB610C0DB2FCB13F /* Pods-ADIONAUITests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -664,18 +678,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ADIONA/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADIONAUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ADIONA/Pods-ADIONA.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ADIONAUITests/Pods-ADIONAUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ADIONA;
+				PRODUCT_NAME = Pods_ADIONAUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -726,6 +740,36 @@
 			};
 			name = Debug;
 		};
+		61B778F95E75B480768DC86CFD7DB119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38EF33FBE0874F79AAA9757B69BF584 /* JBButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JBButton/JBButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JBButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JBButton/JBButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JBButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A68CB363CCAF76A940E5C1628749B6F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E1C85E28588DBC6DD2C551DEE93F084 /* Pods-ADIONATests.release.xcconfig */;
@@ -759,9 +803,9 @@
 			};
 			name = Release;
 		};
-		AF51B3E3320E8BBCCD471003555FCA57 /* Release */ = {
+		B96B64A3DD52ADF93C9EAD3ECAE49EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A6C68098833C1C28481BB5E441381A9 /* BFPaperButton.xcconfig */;
+			baseConfigurationReference = 84806005E859DC24C8787DF7D40B2EDA /* Pods-ADIONA.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -772,47 +816,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BFPaperButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BFPaperButton/BFPaperButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BFPaperButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BFC33B73A811E6A9140DB91872EB8787 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7042D8673A455FF20A9923D41C1D7637 /* Pods-ADIONAUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ADIONAUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADIONA/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ADIONAUITests/Pods-ADIONAUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ADIONA/Pods-ADIONA.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ADIONAUITests;
+				PRODUCT_NAME = Pods_ADIONA;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -823,7 +838,7 @@
 		};
 		D455D2BA2DDBEEDDA0067F6F204E0EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F884FB0A5CAE5FA26CACA126BA1529B4 /* KCFloatingActionButton.xcconfig */;
+			baseConfigurationReference = F335536D5E118950D441249034D7DF07 /* KCFloatingActionButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -851,9 +866,9 @@
 			};
 			name = Debug;
 		};
-		E7561FADE79D9AD9060DBEB68E7E4195 /* Debug */ = {
+		DD1E4086106E3BEEF814CB639CD1325A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A6C68098833C1C28481BB5E441381A9 /* BFPaperButton.xcconfig */;
+			baseConfigurationReference = 80C2D55433BDAC2DAAF4B28507BC6579 /* Pods-ADIONA.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -864,47 +879,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BFPaperButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BFPaperButton/BFPaperButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BFPaperButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E948FE923B07CBF0CBE571EC40A7F2C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1A2FD863AAABC20AB610C0DB2FCB13F /* Pods-ADIONAUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ADIONAUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADIONA/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ADIONAUITests/Pods-ADIONAUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ADIONA/Pods-ADIONA.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ADIONAUITests;
+				PRODUCT_NAME = Pods_ADIONA;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -947,27 +933,38 @@
 			};
 			name = Debug;
 		};
+		F59E446935100B8E3CBF13702CD3D4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38EF33FBE0874F79AAA9757B69BF584 /* JBButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JBButton/JBButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JBButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JBButton/JBButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JBButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00F5A5F99C36A2EE4FB2511332F2D631 /* Build configuration list for PBXNativeTarget "BFPaperButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7561FADE79D9AD9060DBEB68E7E4195 /* Debug */,
-				AF51B3E3320E8BBCCD471003555FCA57 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DE56CBEA0284A8157F59477490B91D4 /* Build configuration list for PBXNativeTarget "Pods-ADIONAUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E948FE923B07CBF0CBE571EC40A7F2C8 /* Debug */,
-				BFC33B73A811E6A9140DB91872EB8787 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -977,11 +974,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A80C89D23E879D32644D7D1747EA698 /* Build configuration list for PBXNativeTarget "Pods-ADIONA" */ = {
+		7642838EBD93FA524A6B707FC6D6502F /* Build configuration list for PBXNativeTarget "JBButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48EBEF516D632FBE7D9A9EB6CFD8CEA6 /* Debug */,
-				14FDBB922936C7139C4C99E58D39B4D7 /* Release */,
+				61B778F95E75B480768DC86CFD7DB119 /* Debug */,
+				F59E446935100B8E3CBF13702CD3D4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8707AC6D1461BC169A2A6971F53C43E6 /* Build configuration list for PBXNativeTarget "Pods-ADIONAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF70A604A23D3019B70D103273935F2 /* Debug */,
+				19BEEE9F4880145BE95D208142C6DAA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -991,6 +997,15 @@
 			buildConfigurations = (
 				D455D2BA2DDBEEDDA0067F6F204E0EA4 /* Debug */,
 				105B18A8D540E1B7E2A9F892634D774D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DB882FA69FDECED9048034095B2D28 /* Build configuration list for PBXNativeTarget "Pods-ADIONA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1E4086106E3BEEF814CB639CD1325A /* Debug */,
+				B96B64A3DD52ADF93C9EAD3ECAE49EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
