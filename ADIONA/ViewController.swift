@@ -21,6 +21,18 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let c1 = UIColor(red: 209/255, green: 200/255, blue: 255/255, alpha: 1)
+        let c2 = UIColor(red: 179/255, green: 112/255, blue: 176/255, alpha: 1)
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.view.bounds
+        gradientLayer.colors = [c1.CGColor, c2.CGColor]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 1)
+        self.view.layer.addSublayer(gradientLayer)
+        view.addSubview(imNervous)
+        view.addSubview(contactNearby)
+        view.addSubview(emergency)
             setupImnervousButtons()
             setupContactNearbyButtons()
             setupEmergencyButtons()
