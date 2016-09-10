@@ -14,6 +14,8 @@
 		1156CFCA1D846B7D006F45CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156CFC81D846B7D006F45CC /* LaunchScreen.storyboard */; };
 		1156CFD51D846B7D006F45CC /* ADIONATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFD41D846B7D006F45CC /* ADIONATests.swift */; };
 		1156CFE01D846B7D006F45CC /* ADIONAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFDF1D846B7D006F45CC /* ADIONAUITests.swift */; };
+		1B9D42C71D847FA800350CAE /* PoliceOfficer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */; };
+		1B9D42C91D84810B00350CAE /* Walker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C81D84810B00350CAE /* Walker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1156CFDB1D846B7D006F45CC /* ADIONAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADIONAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1156CFDF1D846B7D006F45CC /* ADIONAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADIONAUITests.swift; sourceTree = "<group>"; };
 		1156CFE11D846B7D006F45CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliceOfficer.swift; sourceTree = "<group>"; };
+		1B9D42C81D84810B00350CAE /* Walker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				1156CFBF1D846B7D006F45CC /* AppDelegate.swift */,
 				1156CFC11D846B7D006F45CC /* ViewController.swift */,
+				1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */,
+				1B9D42C81D84810B00350CAE /* Walker.swift */,
 				1156CFC31D846B7D006F45CC /* Main.storyboard */,
 				1156CFC61D846B7D006F45CC /* Assets.xcassets */,
 				1156CFC81D846B7D006F45CC /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1156CFC21D846B7D006F45CC /* ViewController.swift in Sources */,
+				1B9D42C91D84810B00350CAE /* Walker.swift in Sources */,
 				1156CFC01D846B7D006F45CC /* AppDelegate.swift in Sources */,
+				1B9D42C71D847FA800350CAE /* PoliceOfficer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +495,7 @@
 				1156CFE61D846B7D006F45CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1156CFE71D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONATests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +504,7 @@
 				1156CFE91D846B7D006F45CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1156CFEA1D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONAUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +513,7 @@
 				1156CFEC1D846B7D006F45CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
