@@ -2,7 +2,7 @@
 //  UIColor+Extensions.swift
 //  ADIONA
 //
-//  Created by Flatiron School on 9/10/16.
+//  Created by Shea Furey-King on 9/10/16.
 //  Copyright © 2016 Laticia Chance. All rights reserved.
 //
 

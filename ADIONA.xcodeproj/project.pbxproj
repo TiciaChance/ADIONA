@@ -17,6 +17,7 @@
 		1B9D42C71D847FA800350CAE /* PoliceOfficer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */; };
 		1B9D42C91D84810B00350CAE /* Walker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C81D84810B00350CAE /* Walker.swift */; };
 		1B9D42CB1D848E6800350CAE /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */; };
+		1B9D42CE1D849AFB00350CAE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42CD1D849AFB00350CAE /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliceOfficer.swift; sourceTree = "<group>"; };
 		1B9D42C81D84810B00350CAE /* Walker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walker.swift; sourceTree = "<group>"; };
 		1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		1B9D42CD1D849AFB00350CAE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				1156CFBF1D846B7D006F45CC /* AppDelegate.swift */,
+				1B9D42CD1D849AFB00350CAE /* SettingsViewController.swift */,
 				1156CFC11D846B7D006F45CC /* ViewController.swift */,
 				1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */,
 				1B9D42C81D84810B00350CAE /* Walker.swift */,
@@ -281,6 +284,7 @@
 				1B9D42C91D84810B00350CAE /* Walker.swift in Sources */,
 				1156CFC01D846B7D006F45CC /* AppDelegate.swift in Sources */,
 				1B9D42C71D847FA800350CAE /* PoliceOfficer.swift in Sources */,
+				1B9D42CE1D849AFB00350CAE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
