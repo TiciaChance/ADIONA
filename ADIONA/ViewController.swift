@@ -8,18 +8,46 @@
 
 import UIKit
 import JBButton
-class ViewController: UIViewController {
+import CoreLocation
+
+class ViewController: UIViewController, CLLocationManagerDelegate {
+    
 @IBOutlet weak var imNervous: JBButton!
 @IBOutlet weak var contactNearby: JBButton!
 @IBOutlet weak var emergency: JBButton!
+    
+    var locationManager = CLLocationManager()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-setupImnervousButtons()
-setupContactNearbyButtons()
-setupEmergencyButtons()
+            setupImnervousButtons()
+            setupContactNearbyButtons()
+            setupEmergencyButtons()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
+        locationManager.delegate = self
+
     }
 
+    //contains the users location as and when it gets updated
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+        //get most recent coordinate
+        
+        let lastCoord = locations[locations.count - 1]
+        //get lat and long of that coord
+        let latitude = lastCoord.coordinate.latitude
+        let longitude = lastCoord.coordinate.longitude
+        
+        let lastCoord2D = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+        print(lastCoord2D)
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
