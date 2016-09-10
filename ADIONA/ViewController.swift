@@ -13,18 +13,17 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
-
-    class ViewController: UIViewController {
-    @IBOutlet weak var imNervous: JBButton!
-    @IBOutlet weak var contactNearby: JBButton!
-    @IBOutlet weak var emergency: JBButton!
+    
+        @IBOutlet weak var imNervous: JBButton!
+        @IBOutlet weak var contactNearby: JBButton!
+        @IBOutlet weak var emergency: JBButton!
         
         var locationManager = CLLocationManager()
         
         
         override func viewDidLoad() {
             super.viewDidLoad()
-
+            
             
             
             let c1 = UIColor(red: 209/255, green: 200/255, blue: 255/255, alpha: 1)
@@ -38,19 +37,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             view.addSubview(imNervous)
             view.addSubview(contactNearby)
             view.addSubview(emergency)
-
-    setupImnervousButtons()
-    setupContactNearbyButtons()
-    setupEmergencyButtons()
+            
+            setupImnervousButtons()
+            setupContactNearbyButtons()
+            setupEmergencyButtons()
             // Do any additional setup after loading the view, typically from a nib.
             
             locationManager.desiredAccuracy = kCLLocationAccuracyBest
             locationManager.requestWhenInUseAuthorization()
             locationManager.startUpdatingLocation()
-    //        locationManager.delegate = self
-
+            locationManager.delegate = self
+            
         }
-
+        
         //contains the users location as and when it gets updated
         func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
             
@@ -70,7 +69,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             super.didReceiveMemoryWarning()
             // Dispose of any resources that can be recreated.
         }
-
+        
         func setupImnervousButtons() {
             self.imNervous.setTitleFont(UIFont(name: "AmericanTypewriter-Bold", size: 18.0)!)
             
@@ -100,7 +99,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.imNervous.layer.shadowOffset = CGSize(width: 5, height: 5)
             self.imNervous.layer.shadowOpacity = 0.5
             
-            // Scale animation
+         
             let scaleSmallAnimation = CASpringAnimation(keyPath: "transform.scale")
             scaleSmallAnimation.fromValue = 1.0
             scaleSmallAnimation.toValue = 0.9
@@ -140,7 +139,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             group.autoreverses = true
             group.repeatCount = FLT_MAX
             self.imNervous.customLoadingAnimations = group
-            
+            //
         }
         
         
@@ -166,11 +165,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 errorAlert.actions
             }
         }
-
         
         
         
-
+        
+        
         func setupContactNearbyButtons() {
             self.contactNearby.setTitleFont(UIFont(name: "AmericanTypewriter-Bold", size: 18.0)!)
             
@@ -240,9 +239,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             group.autoreverses = true
             group.repeatCount = FLT_MAX
             self.contactNearby.customLoadingAnimations = group
-       
+            
         }
-
+        
         func setupEmergencyButtons() {
             self.emergency.setTitleFont(UIFont(name: "AmericanTypewriter-Bold", size: 18.0)!)
             
@@ -316,7 +315,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         func setupviewColor() {
-           // self.view.setTitleFont(UIFont(name: "AmericanTypewriter-Bold", size: 18.0)!)
+            // self.view.setTitleFont(UIFont(name: "AmericanTypewriter-Bold", size: 18.0)!)
             
             // Create a gradiant layer
             let c1 = UIColor(red: 255/255, green: 115/255, blue: 15/255, alpha: 1)
@@ -387,5 +386,4 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             
         }
     }
-
-}
+    
