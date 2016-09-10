@@ -16,6 +16,7 @@
 		1156CFE01D846B7D006F45CC /* ADIONAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFDF1D846B7D006F45CC /* ADIONAUITests.swift */; };
 		1B9D42C71D847FA800350CAE /* PoliceOfficer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */; };
 		1B9D42C91D84810B00350CAE /* Walker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C81D84810B00350CAE /* Walker.swift */; };
+		1B9D42CB1D848E6800350CAE /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1156CFE11D846B7D006F45CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliceOfficer.swift; sourceTree = "<group>"; };
 		1B9D42C81D84810B00350CAE /* Walker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walker.swift; sourceTree = "<group>"; };
+		1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				1156CFC61D846B7D006F45CC /* Assets.xcassets */,
 				1156CFC81D846B7D006F45CC /* LaunchScreen.storyboard */,
 				1156CFCB1D846B7D006F45CC /* Info.plist */,
+				1B9D42CC1D848E7800350CAE /* Extensions */,
 			);
 			path = ADIONA;
 			sourceTree = "<group>";
@@ -129,6 +132,14 @@
 				1156CFE11D846B7D006F45CC /* Info.plist */,
 			);
 			path = ADIONAUITests;
+			sourceTree = "<group>";
+		};
+		1B9D42CC1D848E7800350CAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B9D42CB1D848E6800350CAE /* UIColor+Extensions.swift in Sources */,
 				1156CFC21D846B7D006F45CC /* ViewController.swift in Sources */,
 				1B9D42C91D84810B00350CAE /* Walker.swift in Sources */,
 				1156CFC01D846B7D006F45CC /* AppDelegate.swift in Sources */,
