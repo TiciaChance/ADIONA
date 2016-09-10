@@ -11,6 +11,9 @@ import UIKit
 class PoliceOfficer {
     
     var phoneNumber : String
-    
-    
+
+    init() {
+        
+        self.phoneNumber = ""
+    }
 }
