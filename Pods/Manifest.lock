@@ -1,0 +1,15 @@
+PODS:
+  - JBButton (0.1.0)
+  - KCFloatingActionButton (1.4.4)
+
+DEPENDENCIES:
+  - JBButton (~> 0.1)
+  - KCFloatingActionButton (~> 1.4)
+
+SPEC CHECKSUMS:
+  JBButton: 2a0c4b0ebf4c4049c4f86f36c62169549e14fdf3
+  KCFloatingActionButton: 410c5bf4255da4d21c8708069cf128d436d64cf7
+
+PODFILE CHECKSUM: a40e36a767dce87694b2ca5aae9b7c63f77dbcca
+
+COCOAPODS: 1.0.1

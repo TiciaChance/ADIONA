@@ -1,0 +1,6 @@
+framework module JBButton {
+  umbrella header "JBButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
