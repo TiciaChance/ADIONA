@@ -7,9 +7,9 @@
 //
 
 import Foundation
+import UIKit
 
 extension UIColor {
-    
     class func fromRgbHex(fromHex: Int) -> UIColor {
         
         let red =   CGFloat((fromHex & 0xFF0000) >> 16) / 0xFF
@@ -32,22 +32,9 @@ extension UIColor {
         return UIColor.fromRgbHex(mediumPurple)
     }
     
-    class func adionaLavender() -> UIColor {
+    class func adionaLightPurple() -> UIColor {
         
         let lavender = 0xD1C8E1
         return UIColor.fromRgbHex(lavender)
     }
-    
-    class func adionaLilac() -> UIColor {
-        
-        let lilac = 0xBBA0CA
-        return UIColor.fromRgbHex(lilac)
-    }
-    
-    class func adionaGrayPurple() -> UIColor {
-        
-        let grayPurple = 0xC3C3E6
-        return UIColor.fromRgbHex(grayPurple)
-    }
-    
 }
