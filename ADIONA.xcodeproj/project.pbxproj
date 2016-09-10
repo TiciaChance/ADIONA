@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AF5162DFD461A328A863FC /* Pods_ADIONAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9385097079BB187810197B /* Pods_ADIONAUITests.framework */; };
 		1156CFC01D846B7D006F45CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFBF1D846B7D006F45CC /* AppDelegate.swift */; };
 		1156CFC21D846B7D006F45CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFC11D846B7D006F45CC /* ViewController.swift */; };
 		1156CFC51D846B7D006F45CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156CFC31D846B7D006F45CC /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 		1B9D42C91D84810B00350CAE /* Walker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C81D84810B00350CAE /* Walker.swift */; };
 		1B9D42CB1D848E6800350CAE /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */; };
 		1B9D42CE1D849AFB00350CAE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42CD1D849AFB00350CAE /* SettingsViewController.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0549DE22FB7B7EA4FC4D81E5 /* Pods_ADIONATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A827FF20DBC8F4F22284A1B /* Pods-ADIONATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONATests/Pods-ADIONATests.debug.xcconfig"; sourceTree = "<group>"; };
 		1156CFBC1D846B7D006F45CC /* ADIONA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADIONA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1156CFBF1D846B7D006F45CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1156CFC11D846B7D006F45CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,10 +55,15 @@
 		1156CFDB1D846B7D006F45CC /* ADIONAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADIONAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1156CFDF1D846B7D006F45CC /* ADIONAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADIONAUITests.swift; sourceTree = "<group>"; };
 		1156CFE11D846B7D006F45CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliceOfficer.swift; sourceTree = "<group>"; };
-		1B9D42C81D84810B00350CAE /* Walker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walker.swift; sourceTree = "<group>"; };
-		1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		1B9D42CD1D849AFB00350CAE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+
+		373C322C67D752962092D4FE /* Pods-ADIONA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONA.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONA/Pods-ADIONA.release.xcconfig"; sourceTree = "<group>"; };
+		3EE01030AECDC8C3BFB97CE7 /* Pods-ADIONA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONA/Pods-ADIONA.debug.xcconfig"; sourceTree = "<group>"; };
+		710BBFB6D78ADC29F4220809 /* Pods-ADIONAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONAUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONAUITests/Pods-ADIONAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7568ACE10C834936B1FA0CCA /* Pods-ADIONAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONAUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONAUITests/Pods-ADIONAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A9385097079BB187810197B /* Pods_ADIONAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B271A60687EAECE1831AEA /* Pods_ADIONA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EA18FB9D64787ADEE9C9E3 /* Pods-ADIONATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONATests/Pods-ADIONATests.release.xcconfig"; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE13CB9F5A29FCDE8EDEB37 /* Pods_ADIONA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E02FE3B6D2B2500FCF19640 /* Pods_ADIONATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AF5162DFD461A328A863FC /* Pods_ADIONAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +101,8 @@
 				1156CFD31D846B7D006F45CC /* ADIONATests */,
 				1156CFDE1D846B7D006F45CC /* ADIONAUITests */,
 				1156CFBD1D846B7D006F45CC /* Products */,
+				DE8C99153CE1986AC4D07952 /* Pods */,
+				A2A10E28C6669FAF1078B5B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,12 +151,29 @@
 			path = ADIONAUITests;
 			sourceTree = "<group>";
 		};
-		1B9D42CC1D848E7800350CAE /* Extensions */ = {
+
+		A2A10E28C6669FAF1078B5B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */,
+				B0B271A60687EAECE1831AEA /* Pods_ADIONA.framework */,
+				0549DE22FB7B7EA4FC4D81E5 /* Pods_ADIONATests.framework */,
+				7A9385097079BB187810197B /* Pods_ADIONAUITests.framework */,
 			);
-			name = Extensions;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8C99153CE1986AC4D07952 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE01030AECDC8C3BFB97CE7 /* Pods-ADIONA.debug.xcconfig */,
+				373C322C67D752962092D4FE /* Pods-ADIONA.release.xcconfig */,
+				0A827FF20DBC8F4F22284A1B /* Pods-ADIONATests.debug.xcconfig */,
+				C2EA18FB9D64787ADEE9C9E3 /* Pods-ADIONATests.release.xcconfig */,
+				710BBFB6D78ADC29F4220809 /* Pods-ADIONAUITests.debug.xcconfig */,
+				7568ACE10C834936B1FA0CCA /* Pods-ADIONAUITests.release.xcconfig */,
+			);
+			name = Pods;
+
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1156CFE41D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONA" */;
 			buildPhases = (
+				0977C1185657BC54995B79AA /* [CP] Check Pods Manifest.lock */,
 				1156CFB81D846B7D006F45CC /* Sources */,
 				1156CFB91D846B7D006F45CC /* Frameworks */,
 				1156CFBA1D846B7D006F45CC /* Resources */,
+				50540B1395D63B724F0BE59A /* [CP] Embed Pods Frameworks */,
+				4C5A1CC37A6B0D0286DAAD74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1156CFE71D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONATests" */;
 			buildPhases = (
+				F8168BB5DCDCBA15F38C5F46 /* [CP] Check Pods Manifest.lock */,
 				1156CFCC1D846B7D006F45CC /* Sources */,
 				1156CFCD1D846B7D006F45CC /* Frameworks */,
 				1156CFCE1D846B7D006F45CC /* Resources */,
+				1CD126E18FB7FF8333F4B446 /* [CP] Embed Pods Frameworks */,
+				74B52FC4AF75D6369081A947 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1156CFEA1D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONAUITests" */;
 			buildPhases = (
+				615329BE6CFA0D1B2EE90212 /* [CP] Check Pods Manifest.lock */,
 				1156CFD71D846B7D006F45CC /* Sources */,
 				1156CFD81D846B7D006F45CC /* Frameworks */,
 				1156CFD91D846B7D006F45CC /* Resources */,
+				65B9F6B9CE75A202FBDBFDD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +312,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0977C1185657BC54995B79AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1CD126E18FB7FF8333F4B446 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADIONATests/Pods-ADIONATests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C5A1CC37A6B0D0286DAAD74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADIONA/Pods-ADIONA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50540B1395D63B724F0BE59A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADIONA/Pods-ADIONA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		615329BE6CFA0D1B2EE90212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65B9F6B9CE75A202FBDBFDD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADIONAUITests/Pods-ADIONAUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B52FC4AF75D6369081A947 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADIONATests/Pods-ADIONATests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8168BB5DCDCBA15F38C5F46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1156CFB81D846B7D006F45CC /* Sources */ = {
@@ -426,28 +588,33 @@
 		};
 		1156CFE51D846B7D006F45CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE01030AECDC8C3BFB97CE7 /* Pods-ADIONA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADIONA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
 		1156CFE61D846B7D006F45CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373C322C67D752962092D4FE /* Pods-ADIONA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADIONA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
 		1156CFE81D846B7D006F45CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A827FF20DBC8F4F22284A1B /* Pods-ADIONATests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ADIONATests/Info.plist;
@@ -460,6 +627,7 @@
 		};
 		1156CFE91D846B7D006F45CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EA18FB9D64787ADEE9C9E3 /* Pods-ADIONATests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ADIONATests/Info.plist;
@@ -472,6 +640,7 @@
 		};
 		1156CFEB1D846B7D006F45CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710BBFB6D78ADC29F4220809 /* Pods-ADIONAUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ADIONAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -483,6 +652,7 @@
 		};
 		1156CFEC1D846B7D006F45CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7568ACE10C834936B1FA0CCA /* Pods-ADIONAUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ADIONAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
