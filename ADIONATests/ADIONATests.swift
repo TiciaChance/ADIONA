@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import MessageUI;
+
 @testable import ADIONA
 
 class ADIONATests: XCTestCase {
@@ -32,5 +34,8 @@ class ADIONATests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    
+
     
 }
