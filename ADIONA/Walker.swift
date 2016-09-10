@@ -10,7 +10,7 @@ import UIKit
 
 class Walker {
     
-    var emergencyContact : String
+    var emergencyContact : String = ""
     var currentLocation : [Double]
     
     init(withContact contact: String) {

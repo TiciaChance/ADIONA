@@ -10,7 +10,7 @@ import UIKit
 
 class PoliceOfficer {
     
-    var phoneNumber : String
+    var phoneNumber : String = ""
 
     init() {
         
