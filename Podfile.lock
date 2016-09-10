@@ -1,0 +1,15 @@
+PODS:
+  - BFPaperButton (2.1.1)
+  - KCFloatingActionButton (1.4.4)
+
+DEPENDENCIES:
+  - BFPaperButton (~> 2.1)
+  - KCFloatingActionButton (~> 1.4)
+
+SPEC CHECKSUMS:
+  BFPaperButton: c76835e789669f64d600dc68934cc60fbb550bb9
+  KCFloatingActionButton: 410c5bf4255da4d21c8708069cf128d436d64cf7
+
+PODFILE CHECKSUM: ce1473a781052da0a034558ba986143bd127a46f
+
+COCOAPODS: 1.0.1
