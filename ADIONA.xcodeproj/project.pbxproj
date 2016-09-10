@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1156CFC01D846B7D006F45CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFBF1D846B7D006F45CC /* AppDelegate.swift */; };
+		1156CFC21D846B7D006F45CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFC11D846B7D006F45CC /* ViewController.swift */; };
+		1156CFC51D846B7D006F45CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156CFC31D846B7D006F45CC /* Main.storyboard */; };
+		1156CFC71D846B7D006F45CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1156CFC61D846B7D006F45CC /* Assets.xcassets */; };
+		1156CFCA1D846B7D006F45CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156CFC81D846B7D006F45CC /* LaunchScreen.storyboard */; };
+		1156CFD51D846B7D006F45CC /* ADIONATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFD41D846B7D006F45CC /* ADIONATests.swift */; };
+		1156CFE01D846B7D006F45CC /* ADIONAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFDF1D846B7D006F45CC /* ADIONAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1156CFD11D846B7D006F45CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1156CFB41D846B7C006F45CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1156CFBB1D846B7D006F45CC;
+			remoteInfo = ADIONA;
+		};
+		1156CFDC1D846B7D006F45CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1156CFB41D846B7C006F45CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1156CFBB1D846B7D006F45CC;
+			remoteInfo = ADIONA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1156CFBC1D846B7D006F45CC /* ADIONA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADIONA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1156CFBF1D846B7D006F45CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1156CFC11D846B7D006F45CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1156CFC41D846B7D006F45CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1156CFC61D846B7D006F45CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1156CFC91D846B7D006F45CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1156CFCB1D846B7D006F45CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1156CFD01D846B7D006F45CC /* ADIONATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADIONATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1156CFD41D846B7D006F45CC /* ADIONATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADIONATests.swift; sourceTree = "<group>"; };
+		1156CFD61D846B7D006F45CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1156CFDB1D846B7D006F45CC /* ADIONAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADIONAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1156CFDF1D846B7D006F45CC /* ADIONAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADIONAUITests.swift; sourceTree = "<group>"; };
+		1156CFE11D846B7D006F45CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1156CFB91D846B7D006F45CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1156CFCD1D846B7D006F45CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1156CFD81D846B7D006F45CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1156CFB31D846B7C006F45CC = {
+			isa = PBXGroup;
+			children = (
+				1156CFBE1D846B7D006F45CC /* ADIONA */,
+				1156CFD31D846B7D006F45CC /* ADIONATests */,
+				1156CFDE1D846B7D006F45CC /* ADIONAUITests */,
+				1156CFBD1D846B7D006F45CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1156CFBD1D846B7D006F45CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1156CFBC1D846B7D006F45CC /* ADIONA.app */,
+				1156CFD01D846B7D006F45CC /* ADIONATests.xctest */,
+				1156CFDB1D846B7D006F45CC /* ADIONAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1156CFBE1D846B7D006F45CC /* ADIONA */ = {
+			isa = PBXGroup;
+			children = (
+				1156CFBF1D846B7D006F45CC /* AppDelegate.swift */,
+				1156CFC11D846B7D006F45CC /* ViewController.swift */,
+				1156CFC31D846B7D006F45CC /* Main.storyboard */,
+				1156CFC61D846B7D006F45CC /* Assets.xcassets */,
+				1156CFC81D846B7D006F45CC /* LaunchScreen.storyboard */,
+				1156CFCB1D846B7D006F45CC /* Info.plist */,
+			);
+			path = ADIONA;
+			sourceTree = "<group>";
+		};
+		1156CFD31D846B7D006F45CC /* ADIONATests */ = {
+			isa = PBXGroup;
+			children = (
+				1156CFD41D846B7D006F45CC /* ADIONATests.swift */,
+				1156CFD61D846B7D006F45CC /* Info.plist */,
+			);
+			path = ADIONATests;
+			sourceTree = "<group>";
+		};
+		1156CFDE1D846B7D006F45CC /* ADIONAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1156CFDF1D846B7D006F45CC /* ADIONAUITests.swift */,
+				1156CFE11D846B7D006F45CC /* Info.plist */,
+			);
+			path = ADIONAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1156CFBB1D846B7D006F45CC /* ADIONA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1156CFE41D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONA" */;
+			buildPhases = (
+				1156CFB81D846B7D006F45CC /* Sources */,
+				1156CFB91D846B7D006F45CC /* Frameworks */,
+				1156CFBA1D846B7D006F45CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADIONA;
+			productName = ADIONA;
+			productReference = 1156CFBC1D846B7D006F45CC /* ADIONA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1156CFCF1D846B7D006F45CC /* ADIONATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1156CFE71D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONATests" */;
+			buildPhases = (
+				1156CFCC1D846B7D006F45CC /* Sources */,
+				1156CFCD1D846B7D006F45CC /* Frameworks */,
+				1156CFCE1D846B7D006F45CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1156CFD21D846B7D006F45CC /* PBXTargetDependency */,
+			);
+			name = ADIONATests;
+			productName = ADIONATests;
+			productReference = 1156CFD01D846B7D006F45CC /* ADIONATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1156CFDA1D846B7D006F45CC /* ADIONAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1156CFEA1D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONAUITests" */;
+			buildPhases = (
+				1156CFD71D846B7D006F45CC /* Sources */,
+				1156CFD81D846B7D006F45CC /* Frameworks */,
+				1156CFD91D846B7D006F45CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1156CFDD1D846B7D006F45CC /* PBXTargetDependency */,
+			);
+			name = ADIONAUITests;
+			productName = ADIONAUITests;
+			productReference = 1156CFDB1D846B7D006F45CC /* ADIONAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1156CFB41D846B7C006F45CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Laticia Chance";
+				TargetAttributes = {
+					1156CFBB1D846B7D006F45CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TDFXWLD7DJ;
+					};
+					1156CFCF1D846B7D006F45CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TDFXWLD7DJ;
+						TestTargetID = 1156CFBB1D846B7D006F45CC;
+					};
+					1156CFDA1D846B7D006F45CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TDFXWLD7DJ;
+						TestTargetID = 1156CFBB1D846B7D006F45CC;
+					};
+				};
+			};
+			buildConfigurationList = 1156CFB71D846B7C006F45CC /* Build configuration list for PBXProject "ADIONA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1156CFB31D846B7C006F45CC;
+			productRefGroup = 1156CFBD1D846B7D006F45CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1156CFBB1D846B7D006F45CC /* ADIONA */,
+				1156CFCF1D846B7D006F45CC /* ADIONATests */,
+				1156CFDA1D846B7D006F45CC /* ADIONAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1156CFBA1D846B7D006F45CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1156CFCA1D846B7D006F45CC /* LaunchScreen.storyboard in Resources */,
+				1156CFC71D846B7D006F45CC /* Assets.xcassets in Resources */,
+				1156CFC51D846B7D006F45CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1156CFCE1D846B7D006F45CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1156CFD91D846B7D006F45CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1156CFB81D846B7D006F45CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1156CFC21D846B7D006F45CC /* ViewController.swift in Sources */,
+				1156CFC01D846B7D006F45CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1156CFCC1D846B7D006F45CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1156CFD51D846B7D006F45CC /* ADIONATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1156CFD71D846B7D006F45CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1156CFE01D846B7D006F45CC /* ADIONAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1156CFD21D846B7D006F45CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1156CFBB1D846B7D006F45CC /* ADIONA */;
+			targetProxy = 1156CFD11D846B7D006F45CC /* PBXContainerItemProxy */;
+		};
+		1156CFDD1D846B7D006F45CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1156CFBB1D846B7D006F45CC /* ADIONA */;
+			targetProxy = 1156CFDC1D846B7D006F45CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1156CFC31D846B7D006F45CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1156CFC41D846B7D006F45CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1156CFC81D846B7D006F45CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1156CFC91D846B7D006F45CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1156CFE21D846B7D006F45CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1156CFE31D846B7D006F45CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1156CFE51D846B7D006F45CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADIONA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1156CFE61D846B7D006F45CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADIONA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1156CFE81D846B7D006F45CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADIONATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADIONA.app/ADIONA";
+			};
+			name = Debug;
+		};
+		1156CFE91D846B7D006F45CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADIONATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADIONA.app/ADIONA";
+			};
+			name = Release;
+		};
+		1156CFEB1D846B7D006F45CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADIONAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADIONA;
+			};
+			name = Debug;
+		};
+		1156CFEC1D846B7D006F45CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADIONAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADIONA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1156CFB71D846B7C006F45CC /* Build configuration list for PBXProject "ADIONA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1156CFE21D846B7D006F45CC /* Debug */,
+				1156CFE31D846B7D006F45CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1156CFE41D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1156CFE51D846B7D006F45CC /* Debug */,
+				1156CFE61D846B7D006F45CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1156CFE71D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1156CFE81D846B7D006F45CC /* Debug */,
+				1156CFE91D846B7D006F45CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1156CFEA1D846B7D006F45CC /* Build configuration list for PBXNativeTarget "ADIONAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1156CFEB1D846B7D006F45CC /* Debug */,
+				1156CFEC1D846B7D006F45CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1156CFB41D846B7C006F45CC /* Project object */;
+}
