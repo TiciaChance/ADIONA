@@ -80,8 +80,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, JBButtonDeleg
 
 
         
-
-    
         func didReceiveMemoryWarning() {
             super.didReceiveMemoryWarning()
             // Dispose of any resources that can be recreated.
@@ -392,6 +390,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, JBButtonDeleg
         
     }
     
+    
     func sendTextMessageButtonTapped(sender: UIButton) {
         // Make sure the device can send text messages
         print("button tapped")
@@ -418,6 +417,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, JBButtonDeleg
             errorAlert.actions
         }
     }
+    
+    
 
     
 }
