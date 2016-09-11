@@ -15,20 +15,14 @@
 		1156CFCA1D846B7D006F45CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156CFC81D846B7D006F45CC /* LaunchScreen.storyboard */; };
 		1156CFD51D846B7D006F45CC /* ADIONATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFD41D846B7D006F45CC /* ADIONATests.swift */; };
 		1156CFE01D846B7D006F45CC /* ADIONAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156CFDF1D846B7D006F45CC /* ADIONAUITests.swift */; };
-
-		1B9D42C71D847FA800350CAE /* PoliceOfficer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */; };
-		1B9D42CB1D848E6800350CAE /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */; };
-		1B9D42CE1D849AFB00350CAE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42CD1D849AFB00350CAE /* SettingsViewController.swift */; };
-		30AEFB101D84927F0036C4C0 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEFB0F1D84927F0036C4C0 /* MessageComposer.swift */; };
-		30AEFB121D849F860036C4C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 30AEFB111D849F860036C4C0 /* .gitignore */; };
-
 		1B9D42C71D847FA800350CAE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1B9D42C91D84810B00350CAE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1B9D42CB1D848E6800350CAE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1B9D42CE1D849AFB00350CAE /* (null) in Sources */ = {isa = PBXBuildFile; };
+		30AEFB101D84927F0036C4C0 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEFB0F1D84927F0036C4C0 /* MessageComposer.swift */; };
+		30AEFB121D849F860036C4C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 30AEFB111D849F860036C4C0 /* .gitignore */; };
 		7D80805EAA2585D25E9ABBFF /* Pods_ADIONATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0549DE22FB7B7EA4FC4D81E5 /* Pods_ADIONATests.framework */; };
 		AE592258DDA4EB6EFC11676E /* Pods_ADIONA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B271A60687EAECE1831AEA /* Pods_ADIONA.framework */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,13 +58,9 @@
 		1156CFDB1D846B7D006F45CC /* ADIONAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADIONAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1156CFDF1D846B7D006F45CC /* ADIONAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADIONAUITests.swift; sourceTree = "<group>"; };
 		1156CFE11D846B7D006F45CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
 		1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliceOfficer.swift; sourceTree = "<group>"; };
-		1B9D42CA1D848E6800350CAE /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		1B9D42CD1D849AFB00350CAE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		30AEFB0F1D84927F0036C4C0 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
 		30AEFB111D849F860036C4C0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-
 		373C322C67D752962092D4FE /* Pods-ADIONA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONA.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONA/Pods-ADIONA.release.xcconfig"; sourceTree = "<group>"; };
 		3EE01030AECDC8C3BFB97CE7 /* Pods-ADIONA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONA/Pods-ADIONA.debug.xcconfig"; sourceTree = "<group>"; };
 		710BBFB6D78ADC29F4220809 /* Pods-ADIONAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONAUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONAUITests/Pods-ADIONAUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,7 +68,6 @@
 		7A9385097079BB187810197B /* Pods_ADIONAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B271A60687EAECE1831AEA /* Pods_ADIONA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIONA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EA18FB9D64787ADEE9C9E3 /* Pods-ADIONATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADIONATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADIONATests/Pods-ADIONATests.release.xcconfig"; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,10 +126,8 @@
 			children = (
 				1156CFBF1D846B7D006F45CC /* AppDelegate.swift */,
 				1156CFC11D846B7D006F45CC /* ViewController.swift */,
-
 				1B9D42C61D847FA800350CAE /* PoliceOfficer.swift */,
 				30AEFB0F1D84927F0036C4C0 /* MessageComposer.swift */,
-
 				1156CFC31D846B7D006F45CC /* Main.storyboard */,
 				1156CFC61D846B7D006F45CC /* Assets.xcassets */,
 				1156CFC81D846B7D006F45CC /* LaunchScreen.storyboard */,
@@ -458,16 +445,13 @@
 			files = (
 				1B9D42CB1D848E6800350CAE /* (null) in Sources */,
 				1156CFC21D846B7D006F45CC /* ViewController.swift in Sources */,
-
-				1B9D42C71D847FA800350CAE /* PoliceOfficer.swift in Sources */,
+				1B9D42C71D847FA800350CAE /* (null) in Sources */,
 				30AEFB101D84927F0036C4C0 /* MessageComposer.swift in Sources */,
-				1B9D42CE1D849AFB00350CAE /* SettingsViewController.swift in Sources */,
-
+				1B9D42CE1D849AFB00350CAE /* (null) in Sources */,
 				1B9D42C91D84810B00350CAE /* (null) in Sources */,
 				1156CFC01D846B7D006F45CC /* AppDelegate.swift in Sources */,
 				1B9D42C71D847FA800350CAE /* (null) in Sources */,
 				1B9D42CE1D849AFB00350CAE /* (null) in Sources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,7 +600,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ADIONA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONA;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.janet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -632,7 +616,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ADIONA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.ADIONA;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.janet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
