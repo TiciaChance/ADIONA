@@ -8,13 +8,18 @@
 
 import UIKit
 import JBButton
-class ViewController: UIViewController {
+class ViewController: UIViewController, JBButtonDelegate {
 @IBOutlet weak var imNervous: JBButton!
 @IBOutlet weak var contactNearby: JBButton!
 @IBOutlet weak var emergency: JBButton!
+weak var delegate: JBButtonDelegate?
+    @IBOutlet weak var findSafety: UIBarButtonItem!
+    
+//    @IBAction func findSafetyTapped(sender: AnyObject) {
+//        print("test")
+//    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         let c1 = UIColor(red: 209/255, green: 200/255, blue: 255/255, alpha: 1)
         let c2 = UIColor(red: 179/255, green: 112/255, blue: 176/255, alpha: 1)
@@ -27,10 +32,15 @@ class ViewController: UIViewController {
         view.addSubview(imNervous)
         view.addSubview(contactNearby)
         view.addSubview(emergency)
-
+        self.imNervous.targetForAction(#selector(didTapOnButton), withSender: JBButton())
+        self.imNervous.targetForAction(#selector(didTapOnButton), withSender: self)
 setupImnervousButtons()
 setupContactNearbyButtons()
 setupEmergencyButtons()
+        
+        self.imNervous.targetForAction(#selector(didTapOnButton), withSender: JBButton())
+        self.imNervous.targetForAction(#selector(didTapOnButton), withSender: self)
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -41,7 +51,8 @@ setupEmergencyButtons()
 
     func setupImnervousButtons() {
         self.imNervous.setTitleFont(UIFont(name: "AmericanTypewriter-Bold", size: 18.0)!)
-        
+        self.imNervous.targetForAction(#selector(didTapOnButton), withSender: self)
+        self.imNervous.delegate = self
         // Create a gradiant layer
         let c1 = UIColor(red: 0/255, green: 161/255, blue: 0/255, alpha: 1)
         let c2 = UIColor(red: 255/255, green: 255/255, blue: 51/255, alpha: 1)
@@ -325,6 +336,13 @@ setupEmergencyButtons()
         group.repeatCount = FLT_MAX
         self.emergency.customLoadingAnimations = group
         
+    }
+    
+    func didTapOnButton(sender: JBButton!){
+        imNervous.delegate = self
+        emergency.delegate = self
+        contactNearby.delegate = self
+    print("tapped")
     }
 }
 

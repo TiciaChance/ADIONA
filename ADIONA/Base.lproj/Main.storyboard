@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vJ3-3F-erB">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--ADIONA-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ADIONA" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,29 +43,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXd-kx-Xpt" customClass="JBButton" customModule="JBButton">
-                                <rect key="frame" x="135" y="231" width="300" height="128"/>
-                                <color key="backgroundColor" red="1" green="0.60917245839482104" blue="0.27141400491611478" alpha="1" colorSpace="calibratedRGB"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
-                                        <real key="value" value="7"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="CONTACT NEARBY"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="1" green="0.37499972171148854" blue="0.1490083635594952" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRenderingMode">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
-                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2z-VJ-siw" customClass="JBButton" customModule="JBButton">
                                 <rect key="frame" x="135" y="402" width="300" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.12925955820000001" blue="0.24531209840000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,24 +66,141 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXd-kx-Xpt" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="135" y="231" width="300" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.60917245839482104" blue="0.27141400491611478" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="CONTACT NEARBY"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.37499972171148854" blue="0.1490083635594952" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRenderingMode">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.80163131778432217" green="0.87034341437076235" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="K2z-VJ-siw" secondAttribute="bottom" constant="100" id="GNi-9K-oXf"/>
                             <constraint firstItem="Avo-wS-fMm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jal-Ba-ey0"/>
                             <constraint firstItem="eXd-kx-Xpt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UdM-Pj-uvi"/>
-                            <constraint firstItem="Avo-wS-fMm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="Xcv-KF-0Sf"/>
+                            <constraint firstItem="Avo-wS-fMm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Xcv-KF-0Sf"/>
                             <constraint firstItem="K2z-VJ-siw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zuf-rQ-8Aq"/>
                             <constraint firstItem="eXd-kx-Xpt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ppX-nd-uRf"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="ADIONA" id="Ndb-lu-RSH">
+                        <barButtonItem key="rightBarButtonItem" title="Crime map" id="7gb-Lj-PNi">
+                            <connections>
+                                <action selector="findSafetyTapped:" destination="BYZ-38-t0r" id="lKx-cB-zoe"/>
+                                <segue destination="9QQ-j5-COh" kind="show" id="VdD-wg-pkK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="contactNearby" destination="eXd-kx-Xpt" id="aT6-09-O6A"/>
                         <outlet property="emergency" destination="K2z-VJ-siw" id="FVX-bL-eUi"/>
+                        <outlet property="findSafety" destination="7gb-Lj-PNi" id="UXt-4k-clY"/>
                         <outlet property="imNervous" destination="Avo-wS-fMm" id="EFO-oj-eKZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1185" y="263"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="Yvn-FY-JJH">
+            <objects>
+                <viewController storyboardIdentifier="LoginPageID" id="9QQ-j5-COh" customClass="MapViewController" customModule="ADIONA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="umM-t5-w2Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="xeZ-d3-q7q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gD1-oS-T7t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="A5Z-nQ-56w">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="A5Z-nQ-56w" firstAttribute="height" secondItem="gD1-oS-T7t" secondAttribute="height" constant="-64" id="bNe-fr-URX"/>
+                            <constraint firstItem="A5Z-nQ-56w" firstAttribute="width" secondItem="gD1-oS-T7t" secondAttribute="width" id="h37-Jw-1E4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="A5Z-nQ-56w" id="JoH-pt-80K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TDP-TL-n9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1515" y="1072"/>
+        </scene>
+        <!--Init Screen-->
+        <scene sceneID="0hI-Z3-gWM">
+            <objects>
+                <viewController id="sEM-eR-gL2" customClass="initScreen" customModule="ADIONA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fu4-eS-lVr"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Gr-wk-sZd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7zE-Ld-1ta">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vgJ-T1-YdD" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="240" y="313" width="120" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Submit"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vgJ-T1-YdD" firstAttribute="centerX" secondItem="7zE-Ld-1ta" secondAttribute="centerX" id="YyG-m9-Dxm"/>
+                            <constraint firstItem="vgJ-T1-YdD" firstAttribute="centerY" secondItem="7zE-Ld-1ta" secondAttribute="centerY" constant="48" id="dCb-aN-Oze"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="submit" destination="vgJ-T1-YdD" id="zOe-F0-HxJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="smu-Jk-vxV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="374" y="1041"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="v2a-0q-eCa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vJ3-3F-erB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3AB-PW-E8d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1Xw-y6-3Hl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oh5-jN-VJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="305" y="342"/>
         </scene>
