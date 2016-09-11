@@ -89,7 +89,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, JBButtonDeleg
         
         func setupImnervousButtons() {
             self.imNervous.delegate = self
-            self.imNervous.targetForAction(#selector(sendTextMessageButtonTapped), withSender: self)
+            self.imNervous.targetForAction(#selector(didTapOnButton), withSender: self)
             self.imNervous.setTitleFont(UIFont(name: "AmericanTypewriter-Bold", size: 18.0)!)
             
             // Create a gradiant layer
@@ -392,13 +392,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate, JBButtonDeleg
         
     }
     
-    func sendTextMessageButtonTapped(sender: UIButton) {
+    func didTapOnButton(sender: JBButton) {
         // Make sure the device can send text messages
-        print("button tapped")
+//        print("button tapped")
         
         if (messageComposer.canSendText())
         {
-            print("compose message")
+//            print("compose message")
             // Obtain a configured MFMessageComposeViewController
             let messageComposeVC = messageComposer.configuredMessageComposeViewController()
             
@@ -409,7 +409,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, JBButtonDeleg
         }
         else
         {
-            print("I'm nervous")
+//            print("I'm nervous")
             // Let the user know if his/her device isn't able to send text messages
             let errorAlert = UIAlertController(
                 title: "Cannot Send Text Message",
