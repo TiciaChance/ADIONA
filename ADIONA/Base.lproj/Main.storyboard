@@ -17,58 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avo-wS-fMm" customClass="JBButton" customModule="JBButton">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avo-wS-fMm" customClass="JBButton" customModule="JBButton">
                                 <rect key="frame" x="135" y="73" width="300" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.91426150520000005" blue="0.16934729030000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
-                                        <real key="value" value="7"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="I'M NERVOUS"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="1" green="0.7705816428822988" blue="0.18319863093877808" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
-                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRenderingMode">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="titleAlignment">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2z-VJ-siw" customClass="JBButton" customModule="JBButton">
-                                <rect key="frame" x="135" y="402" width="300" height="128"/>
-                                <color key="backgroundColor" red="1" green="0.12925955820000001" blue="0.24531209840000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
-                                        <real key="value" value="7"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="EMERGENCY"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.5" green="0.059038597532358905" blue="0.12314039413074479" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRenderingMode">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
-                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXd-kx-Xpt" customClass="JBButton" customModule="JBButton">
-                                <rect key="frame" x="135" y="231" width="300" height="128"/>
-                                <color key="backgroundColor" red="1" green="0.60917245839482104" blue="0.27141400491611478" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="padding">
                                         <real key="value" value="7"/>
@@ -89,15 +40,92 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+<<<<<<< HEAD
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2z-VJ-siw" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="135" y="402" width="300" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.12925955820000001" blue="0.24531209840000001" alpha="1" colorSpace="calibratedRGB"/>
+=======
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXd-kx-Xpt" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="135" y="231" width="300" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.60917245839482104" blue="0.27141400491611478" alpha="1" colorSpace="calibratedRGB"/>
+>>>>>>> e1cfb1a6ea983470f91087042272a71d09fbbcfb
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="EMERGENCY"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.5" green="0.059038597532358905" blue="0.12314039413074479" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRenderingMode">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+<<<<<<< HEAD
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXd-kx-Xpt" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="135" y="231" width="300" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.60917245839482104" blue="0.27141400491611478" alpha="1" colorSpace="calibratedRGB"/>
+=======
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2z-VJ-siw" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="135" y="402" width="300" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.12925955820000001" blue="0.24531209840000001" alpha="1" colorSpace="calibratedRGB"/>
+>>>>>>> e1cfb1a6ea983470f91087042272a71d09fbbcfb
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
+<<<<<<< HEAD
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="CONTACT NEARBY"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.37499972171148854" blue="0.1490083635594952" alpha="1" colorSpace="calibratedRGB"/>
+=======
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="I'M NERVOUS"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.7705816428822988" blue="0.18319863093877808" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+>>>>>>> e1cfb1a6ea983470f91087042272a71d09fbbcfb
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRenderingMode">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleAlignment">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.80163131778432217" green="0.87034341437076235" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="eXd-kx-Xpt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="135" id="DTo-ec-bbZ"/>
+                            <constraint firstItem="eXd-kx-Xpt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="231" id="Et6-Wf-sOJ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="K2z-VJ-siw" secondAttribute="bottom" constant="100" id="GNi-9K-oXf"/>
+                            <constraint firstItem="eXd-kx-Xpt" firstAttribute="leading" secondItem="K2z-VJ-siw" secondAttribute="leading" id="J6W-Kt-gA7"/>
                             <constraint firstItem="Avo-wS-fMm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jal-Ba-ey0"/>
+                            <constraint firstItem="eXd-kx-Xpt" firstAttribute="top" secondItem="Avo-wS-fMm" secondAttribute="bottom" constant="30" id="Odu-fU-wHb"/>
                             <constraint firstItem="eXd-kx-Xpt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UdM-Pj-uvi"/>
+<<<<<<< HEAD
                             <constraint firstItem="Avo-wS-fMm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Xcv-KF-0Sf"/>
+=======
+                            <constraint firstItem="Avo-wS-fMm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="Xcv-KF-0Sf"/>
+                            <constraint firstItem="eXd-kx-Xpt" firstAttribute="leading" secondItem="Avo-wS-fMm" secondAttribute="leading" id="Z8v-Rn-FAa"/>
+>>>>>>> e1cfb1a6ea983470f91087042272a71d09fbbcfb
                             <constraint firstItem="K2z-VJ-siw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zuf-rQ-8Aq"/>
                             <constraint firstItem="eXd-kx-Xpt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ppX-nd-uRf"/>
+                            <constraint firstItem="K2z-VJ-siw" firstAttribute="top" secondItem="eXd-kx-Xpt" secondAttribute="bottom" constant="43" id="vjN-dn-aOa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ADIONA" id="Ndb-lu-RSH">

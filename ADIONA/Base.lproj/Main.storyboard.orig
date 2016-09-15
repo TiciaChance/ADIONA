@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ADIONA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+<<<<<<< HEAD
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avo-wS-fMm" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="135" y="73" width="300" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.91426150520000005" blue="0.16934729030000001" alpha="1" colorSpace="calibratedRGB"/>
+=======
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXd-kx-Xpt" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="116" y="231" width="342" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.60917245839482104" blue="0.27141400491611478" alpha="1" colorSpace="calibratedRGB"/>
+>>>>>>> location
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="CONTACT NEARBY"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.37499972171148854" blue="0.1490083635594952" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRenderingMode">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+<<<<<<< HEAD
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXd-kx-Xpt" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="135" y="231" width="300" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.60917245839482104" blue="0.27141400491611478" alpha="1" colorSpace="calibratedRGB"/>
+=======
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2z-VJ-siw" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="116" y="402" width="342" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.12925955820000001" blue="0.24531209840000001" alpha="1" colorSpace="calibratedRGB"/>
+>>>>>>> location
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="EMERGENCY"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.5" green="0.059038597532358905" blue="0.12314039413074479" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRenderingMode">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+<<<<<<< HEAD
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2z-VJ-siw" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="135" y="402" width="300" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.12925955820000001" blue="0.24531209840000001" alpha="1" colorSpace="calibratedRGB"/>
+=======
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avo-wS-fMm" customClass="JBButton" customModule="JBButton">
+                                <rect key="frame" x="116" y="73" width="342" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.91426150520000005" blue="0.16934729030000001" alpha="1" colorSpace="calibratedRGB"/>
+>>>>>>> location
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="highlight" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="I'M NERVOUS"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.7705816428822988" blue="0.18319863093877808" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRenderingMode">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleAlignment">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80163131778432217" green="0.87034341437076235" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+<<<<<<< HEAD
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="K2z-VJ-siw" secondAttribute="bottom" constant="100" id="GNi-9K-oXf"/>
+                            <constraint firstItem="Avo-wS-fMm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jal-Ba-ey0"/>
+                            <constraint firstItem="eXd-kx-Xpt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UdM-Pj-uvi"/>
+                            <constraint firstItem="Avo-wS-fMm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="Xcv-KF-0Sf"/>
+                            <constraint firstItem="K2z-VJ-siw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zuf-rQ-8Aq"/>
+                            <constraint firstItem="eXd-kx-Xpt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ppX-nd-uRf"/>
+=======
+                            <constraint firstItem="K2z-VJ-siw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F9Z-lE-9Es"/>
+                            <constraint firstItem="Avo-wS-fMm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="Fdd-y7-mdc"/>
+                            <constraint firstItem="Avo-wS-fMm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jal-Ba-ey0"/>
+                            <constraint firstItem="eXd-kx-Xpt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LwX-vZ-LNr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="K2z-VJ-siw" secondAttribute="bottom" constant="120" id="U6D-Vj-s2f"/>
+                            <constraint firstItem="eXd-kx-Xpt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dDk-R5-8pg"/>
+>>>>>>> location
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contactNearby" destination="eXd-kx-Xpt" id="aT6-09-O6A"/>
+                        <outlet property="emergency" destination="K2z-VJ-siw" id="FVX-bL-eUi"/>
+                        <outlet property="imNervous" destination="Avo-wS-fMm" id="EFO-oj-eKZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+<<<<<<< HEAD
+            <point key="canvasLocation" x="305" y="342"/>
+=======
+            <point key="canvasLocation" x="305" y="372"/>
+>>>>>>> location
+        </scene>
+    </scenes>
+</document>
