@@ -13,6 +13,7 @@ class ViewController: UIViewController, JBButtonDelegate {
 @IBOutlet weak var contactNearby: JBButton!
 @IBOutlet weak var emergency: JBButton!
 weak var delegate: JBButtonDelegate?
+    let messageComposer = MessageComposer()
     @IBOutlet weak var findSafety: UIBarButtonItem!
     
 //    @IBAction func findSafetyTapped(sender: AnyObject) {
@@ -20,7 +21,7 @@ weak var delegate: JBButtonDelegate?
 //    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.toolbarHidden = false 
         let c1 = UIColor(red: 209/255, green: 200/255, blue: 255/255, alpha: 1)
         let c2 = UIColor(red: 179/255, green: 112/255, blue: 176/255, alpha: 1)
         let gradientLayer = CAGradientLayer()
@@ -339,10 +340,37 @@ setupEmergencyButtons()
     }
     
     func didTapOnButton(sender: JBButton!){
-        imNervous.delegate = self
-        emergency.delegate = self
-        contactNearby.delegate = self
-    print("tapped")
-    }
+        // Make sure the device can send text messages
+        print("button tapped")
+        
+        if (messageComposer.canSendText())
+        {
+            //            print("compose message")
+            // Obtain a configured MFMessageComposeViewController
+            let messageComposeVC = messageComposer.configuredMessageComposeViewController()
+            
+            //            MFMessageComposeViewController().body += "\(locality)"
+            
+            // Present the configured MFMessageComposeViewController instance
+            // Note that the dismissal of the VC will be handled by the messageComposer instance,
+            // since it implements the appropriate delegate call-back
+            presentViewController(messageComposeVC, animated: true, completion: nil)
+        }
+        else
+        {
+            
+            let number = "347-232-1892"
+            let url = NSURL(string: "tel://\(number)")!
+            
+            UIApplication.sharedApplication().openURL(url)
+            print("I'm nervous")
+            // Let the user know if his/her device isn't able to send text messages
+            let errorAlert = UIAlertController(
+                title: "Cannot Send Text Message",
+                message: "Your device is not able to send text messages.",
+                preferredStyle: .Alert)
+            errorAlert.actions
+        }
 }
 
+}

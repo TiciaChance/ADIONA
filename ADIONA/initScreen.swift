@@ -10,19 +10,19 @@ import UIKit
 import JBButton
 
 class initScreen: UIViewController, JBButtonDelegate, UITextFieldDelegate {
-@IBOutlet weak var submit: JBButton!
-
-let textField = UITextField()
+    @IBOutlet weak var submit: JBButton!
+    
+    let textField = UITextField()
     //var test = UIView()
-//var submitButton = JBButton()
-    	weak var delegate: JBButtonDelegate?
+    //var submitButton = JBButton()
+    weak var delegate: JBButtonDelegate?
     weak var textfieldDelegate: UITextFieldDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
         submitButtonSetup()
         
         self.submit.targetForAction(#selector(didTapOnButton), withSender: self)
-
+        
         let c1 = UIColor(red: 209/255, green: 200/255, blue: 255/255, alpha: 1)
         let c2 = UIColor(red: 179/255, green: 112/255, blue: 176/255, alpha: 1)
         let gradientLayer = CAGradientLayer()
@@ -31,10 +31,10 @@ let textField = UITextField()
         gradientLayer.startPoint = CGPoint(x: 0, y: 0)
         gradientLayer.endPoint = CGPoint(x: 1, y: 1)
         self.view.layer.addSublayer(gradientLayer)
-
+        
         submit.targetForAction(#selector(buttonAction), withSender: JBButton())
         submit.targetForAction(#selector(buttonAction), withSender: self)
-
+        
         view.addSubview(submit)
         
         
@@ -53,13 +53,13 @@ let textField = UITextField()
         
         
         var welcomeLabel = UILabel(frame: CGRectMake(0, 0, 300, 21))
-        welcomeLabel.center = CGPointMake(215, 60)
+        welcomeLabel.center = CGPointMake(215, 160)
         welcomeLabel.textAlignment = NSTextAlignment.Center
         welcomeLabel.text = "WELCOME TO ADIONA!"
         let welcomeFont = UIFont(name: "AmericanTypewriter-Bold", size: 23.0)
         welcomeLabel.font = welcomeFont
         self.view.addSubview(welcomeLabel)
-
+        
         
         
         
@@ -71,12 +71,12 @@ let textField = UITextField()
         label.font = font
         self.view.addSubview(label)
         
-
+        
     }
     
     func submitButtonSetup() {
         
-
+        
         self.submit.delegate = self
         self.submit.setTitleFont(UIFont(name: "AmericanTypewriter-Bold", size: 18.0)!)
         
@@ -90,16 +90,16 @@ let textField = UITextField()
         gradientLayer.endPoint = CGPoint(x: 1, y: 1)
         self.submit.layer.addSublayer(gradientLayer)
         // Rounded
-
+        
         self.submit.layer.cornerRadius = 20
         
-         //Add the custom indicator
-//                let indicator = NVActivityIndicatorView(frame: CGRect.zero, type: NVActivityIndicatorType.LineScalePulseOut, color: UIColor.whiteColor(), padding: 0)
-//                self.submit.setCustomLoader(indicator, startAnimationBlock: { () in
-//                    indicator.startAnimation()
-//                    }, stopAnimationBlock: { () in
-//                        indicator.stopAnimation()
-//                })
+        //Add the custom indicator
+        //                let indicator = NVActivityIndicatorView(frame: CGRect.zero, type: NVActivityIndicatorType.LineScalePulseOut, color: UIColor.whiteColor(), padding: 0)
+        //                self.submit.setCustomLoader(indicator, startAnimationBlock: { () in
+        //                    indicator.startAnimation()
+        //                    }, stopAnimationBlock: { () in
+        //                        indicator.stopAnimation()
+        //                })
         
         // Add a shadow to the container view
         self.submit.layer.masksToBounds = false
@@ -121,7 +121,7 @@ let textField = UITextField()
         touchesBegan.fillMode = kCAFillModeForwards
         touchesBegan.removedOnCompletion = false
         self.submit.customTouchesBeganAnimations = touchesBegan
-
+        
         
         // Scale animation
         let scaleBigAnimation = CASpringAnimation(keyPath: "transform.scale")
@@ -152,32 +152,69 @@ let textField = UITextField()
     
     func buttonAction(sender: JBButton!) {
         print("Button tapped")
-    
+        
     }
     
-   func didTapOnButton(sender: JBButton!) {
-    submit.delegate = self
-    let phoneNumber = textField.text
-    NSUserDefaults.standardUserDefaults().setObject(phoneNumber, forKey:"phoneNumber")
-    NSUserDefaults.standardUserDefaults().synchronize()
-    
-    let output = NSUserDefaults.standardUserDefaults().objectForKey("phoneNumber")
-    if (output != nil)
-    {
-        let message = output as! String
-            let alert = UIAlertController(title: "", message: "Phone number saved!", preferredStyle: UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-        self.presentViewController(alert, animated: true, completion: nil)
-        print("Button tapped")
-        print(output)
-        print(message)
-        print(phoneNumber)
-    }
-    
-//        if sender == self.submit {
-//            sender.startLoading()
-//            print("Button tapped")
-//
-//        }
+    func didTapOnButton(sender: JBButton!) {
+        submit.delegate = self
+        let phoneNumber = textField.text
+        NSUserDefaults.standardUserDefaults().setObject(phoneNumber, forKey:"phoneNumber")
+        NSUserDefaults.standardUserDefaults().synchronize()
+        
+        let output = NSUserDefaults.standardUserDefaults().objectForKey("phoneNumber")
+        if (output != nil)
+        {
+            
+            
+            
+            let alertController = UIAlertController(title: nil, message: "Takes the appearance of the bottom bar if specified; otherwise, same as UIActionSheetStyleDefault.", preferredStyle: .ActionSheet)
+            
+            let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
+                // ...
+            }
+            alertController.addAction(cancelAction)
+            
+            let OKAction = UIAlertAction(title: "OK", style: .Default) { (action) in
+                let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let loginViewController: UIViewController = mainStoryboard.instantiateViewControllerWithIdentifier("mainScreen")
+                self.presentViewController(loginViewController, animated: true, completion: nil)
+                // ...
+            }
+            alertController.addAction(OKAction)
+            
+            self.presentViewController(alertController, animated: true) {
+                // ...
+            }
+//            let alert = UIAlertController(title: "", message: "Phone number saved!", preferredStyle: UIAlertControllerStyle.Alert)
+//            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+//            
+//            self.presentViewController(alert, animated: true, completion: nil)
+//            
+//            
+//            let mainStoryboard: UIStoryboard = UIStoryboard(name: "mainScreen", bundle: nil)
+//            let loginViewController: UIViewController = mainStoryboard.instantiateViewControllerWithIdentifier("mainScreen")
+//            let vc = ViewController()
+//            self.presentViewController(vc, animated: true, completion: nil)
+//            
+////            let OKAction = UIAlertAction(title: "Log Out", style: .Default) { (action) in
+////                let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+////                let loginViewController: UIViewController = mainStoryboard.instantiateViewControllerWithIdentifier("LoginView")
+////                self.presentViewController(loginViewController, animated: true, completion: nil)
+////            }
+////            confirmationAlertController.addAction(OKAction)
+////            
+////            self.presentViewController(confirmationAlertController, animated: true, completion: nil)
+////            
+//            
+            print("Button tapped")
+            print(output)
+            print(phoneNumber)
+        }
+        
+        //        if sender == self.submit {
+        //            sender.startLoading()
+        //            print("Button tapped")
+        //
+        //        }
     }
 }

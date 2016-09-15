@@ -8,7 +8,7 @@
         <!--ADIONA-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ADIONA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="ADIONA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -101,6 +101,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ADIONA" id="Ndb-lu-RSH">
+                        <barButtonItem key="leftBarButtonItem" title="Set contact" id="tXG-Vm-OmK">
+                            <connections>
+                                <segue destination="sEM-eR-gL2" kind="show" id="FyV-ni-B9y"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Crime map" id="7gb-Lj-PNi">
                             <connections>
                                 <action selector="findSafetyTapped:" destination="BYZ-38-t0r" id="lKx-cB-zoe"/>
@@ -117,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1185" y="263"/>
+            <point key="canvasLocation" x="1202" y="594"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="Yvn-FY-JJH">
@@ -152,7 +157,7 @@
         <!--Init Screen-->
         <scene sceneID="0hI-Z3-gWM">
             <objects>
-                <viewController id="sEM-eR-gL2" customClass="initScreen" customModule="ADIONA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="initialScreen" id="sEM-eR-gL2" customClass="initScreen" customModule="ADIONA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fu4-eS-lVr"/>
                         <viewControllerLayoutGuide type="bottom" id="8Gr-wk-sZd"/>
@@ -184,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="smu-Jk-vxV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="374" y="1041"/>
+            <point key="canvasLocation" x="637" y="1105"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="v2a-0q-eCa">
@@ -198,6 +203,7 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1Xw-y6-3Hl"/>
+                        <segue destination="sEM-eR-gL2" kind="show" id="vu8-G9-qK9"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oh5-jN-VJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -205,4 +211,7 @@
             <point key="canvasLocation" x="305" y="342"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="FyV-ni-B9y"/>
+    </inferredMetricsTieBreakers>
 </document>

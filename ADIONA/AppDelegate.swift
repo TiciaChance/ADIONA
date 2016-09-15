@@ -16,6 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//        let mainStoryboard:UIStoryboard = UIStoryboard(name:"Main", bundle: nil)
+//        var initialViewController: UIViewController
+//        
+//        let launchedBefore = NSUserDefaults.standardUserDefaults().boolForKey("launchedBefore")
+//        if launchedBefore  {
+//            initialViewController = mainStoryboard.instantiateViewControllerWithIdentifier("mainScreen") as! ViewController
+//            print("Not first launch.")
+//        }
+//        else {
+//            initialViewController = mainStoryboard.instantiateViewControllerWithIdentifier("initialScreen") as! initScreen
+//            print("First launch, setting NSUserDefault.")
+//            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "launchedBefore")
+//        }
+//        
+//        self.window?.rootViewController = initialViewController
+//        self.window!.makeKeyAndVisible()
         return true
     }
 
